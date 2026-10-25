@@ -1,0 +1,5167 @@
+{
+ "analyst-report": {
+  "stock_institute_recommend": {
+   "msg": "",
+   "n": "stock_institute_recommend",
+   "p": [
+    "symbol"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "新浪财经-机构推荐池-最新投资评级",
+   "st": "ok"
+  },
+  "stock_research_report_em": {
+   "msg": "",
+   "n": "stock_research_report_em",
+   "p": [
+    "symbol"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "东方财富网-数据中心-研究报告-个股研报",
+   "st": "ok"
+  }
+ },
+ "balance": {
+  "stock_balance_sheet_by_report_em": {
+   "msg": "",
+   "n": "stock_balance_sheet_by_report_em",
+   "p": [
+    "symbol"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "东方财富-股票-财务分析-资产负债表-按报告期",
+   "st": "ok"
+  },
+  "stock_zcfz_em": {
+   "msg": "",
+   "n": "stock_zcfz_em",
+   "p": [
+    "date"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "东方财富-数据中心-年报季报-业绩快报-资产负债表",
+   "st": "ok"
+  }
+ },
+ "bond": {
+  "bond_buy_back_hist_em": {
+   "msg": "",
+   "n": "bond_buy_back_hist_em",
+   "p": [
+    "symbol"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "东方财富网-行情中心-债券市场-质押式回购-历史数据",
+   "st": "ok"
+  },
+  "bond_cash_summary_sse": {
+   "msg": "",
+   "n": "bond_cash_summary_sse",
+   "p": [
+    "date"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "上登债券信息网-市场数据-市场统计-市场概览-债券现券市场概览",
+   "st": "ok"
+  },
+  "bond_china_close_return": {
+   "msg": "",
+   "n": "bond_china_close_return",
+   "p": [
+    "symbol",
+    "period",
+    "start_date",
+    "end_date"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "收盘收益率曲线历史数据",
+   "st": "ok"
+  },
+  "bond_china_close_return_map": {
+   "msg": "",
+   "n": "bond_china_close_return_map",
+   "p": [],
+   "r": [],
+   "role": "kind",
+   "s": "收盘收益率曲线历史数据",
+   "st": "ok"
+  },
+  "bond_china_yield": {
+   "msg": "",
+   "n": "bond_china_yield",
+   "p": [
+    "start_date",
+    "end_date"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "中国债券信息网-国债及其他债券收益率曲线",
+   "st": "ok"
+  },
+  "bond_corporate_issue_cninfo": {
+   "msg": "",
+   "n": "bond_corporate_issue_cninfo",
+   "p": [
+    "start_date",
+    "end_date"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "巨潮资讯-数据中心-专题统计-债券报表-债券发行-企业债发行",
+   "st": "ok"
+  },
+  "bond_cov_comparison": {
+   "msg": "",
+   "n": "bond_cov_comparison",
+   "p": [],
+   "r": [],
+   "role": "kind",
+   "s": "东方财富网-行情中心-债券市场-可转债比价表",
+   "st": "ok"
+  },
+  "bond_cov_issue_cninfo": {
+   "msg": "",
+   "n": "bond_cov_issue_cninfo",
+   "p": [
+    "start_date",
+    "end_date"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "巨潮资讯-数据中心-专题统计-债券报表-债券发行-可转债发行",
+   "st": "ok"
+  },
+  "bond_cov_stock_issue_cninfo": {
+   "msg": "",
+   "n": "bond_cov_stock_issue_cninfo",
+   "p": [],
+   "r": [],
+   "role": "kind",
+   "s": "巨潮资讯-数据中心-专题统计-债券报表-债券发行-可转债转股",
+   "st": "ok"
+  },
+  "bond_debt_nafmii": {
+   "msg": "",
+   "n": "bond_debt_nafmii",
+   "p": [
+    "page"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "中国银行间市场交易商协会-非金融企业债务融资工具注册信息系统",
+   "st": "ok"
+  },
+  "bond_info_cm": {
+   "msg": "",
+   "n": "bond_info_cm",
+   "p": [
+    "bond_name",
+    "bond_code",
+    "bond_issue",
+    "bond_type"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "中国外汇交易中心暨全国银行间同业拆借中心-数据-债券信息-信息查询",
+   "st": "ok"
+  },
+  "bond_info_cm_query": {
+   "msg": "",
+   "n": "bond_info_cm_query",
+   "p": [
+    "symbol"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "中国外汇交易中心暨全国银行间同业拆借中心-查询相关指标的参数",
+   "st": "ok"
+  },
+  "bond_info_detail_cm": {
+   "msg": "",
+   "n": "bond_info_detail_cm",
+   "p": [
+    "symbol"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "中国外汇交易中心暨全国银行间同业拆借中心-数据-债券信息-信息查询-债券详情",
+   "st": "ok"
+  },
+  "bond_local_government_issue_cninfo": {
+   "msg": "",
+   "n": "bond_local_government_issue_cninfo",
+   "p": [
+    "start_date",
+    "end_date"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "巨潮资讯-数据中心-专题统计-债券报表-债券发行-地方债发行",
+   "st": "ok"
+  },
+  "bond_sh_buy_back_em": {
+   "msg": "",
+   "n": "bond_sh_buy_back_em",
+   "p": [],
+   "r": [],
+   "role": "kind",
+   "s": "东方财富网-行情中心-债券市场-上证质押式回购",
+   "st": "ok"
+  },
+  "bond_sz_buy_back_em": {
+   "msg": "",
+   "n": "bond_sz_buy_back_em",
+   "p": [],
+   "r": [],
+   "role": "kind",
+   "s": "东方财富网-行情中心-债券市场-深证质押式回购",
+   "st": "ok"
+  },
+  "bond_treasure_issue_cninfo": {
+   "msg": "",
+   "n": "bond_treasure_issue_cninfo",
+   "p": [
+    "start_date",
+    "end_date"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "巨潮资讯-数据中心-专题统计-债券报表-债券发行-国债发行",
+   "st": "ok"
+  },
+  "bond_zh_cov": {
+   "msg": "",
+   "n": "bond_zh_cov",
+   "p": [],
+   "r": [],
+   "role": "kind",
+   "s": "东方财富网-数据中心-新股数据-可转债数据",
+   "st": "ok"
+  },
+  "bond_zh_cov_value_analysis": {
+   "msg": "",
+   "n": "bond_zh_cov_value_analysis",
+   "p": [
+    "symbol"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "https://data.eastmoney.com/kzz/detail/113527.html",
+   "st": "ok"
+  },
+  "bond_zh_hs_cov_daily": {
+   "msg": "",
+   "n": "bond_zh_hs_cov_daily",
+   "p": [
+    "symbol"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "新浪财经-债券-沪深可转债的历史行情数据，大量抓取容易封 IP",
+   "st": "ok"
+  },
+  "bond_zh_hs_cov_min": {
+   "msg": "",
+   "n": "bond_zh_hs_cov_min",
+   "p": [
+    "symbol",
+    "period",
+    "adjust",
+    "start_date"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "东方财富网-可转债-分时行情",
+   "st": "ok"
+  },
+  "bond_zh_hs_cov_pre_min": {
+   "msg": "",
+   "n": "bond_zh_hs_cov_pre_min",
+   "p": [
+    "symbol"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "东方财富网-可转债-分时行情-盘前",
+   "st": "ok"
+  },
+  "bond_zh_hs_daily": {
+   "msg": "",
+   "n": "bond_zh_hs_daily",
+   "p": [
+    "symbol"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "新浪财经-债券-沪深债券-历史行情数据，大量抓取容易封 IP",
+   "st": "ok"
+  },
+  "bond_zh_us_rate": {
+   "msg": "",
+   "n": "bond_zh_us_rate",
+   "p": [
+    "start_date"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "东方财富网-数据中心-经济数据-中美国债收益率",
+   "st": "ok"
+  }
+ },
+ "cashflow": {
+  "stock_cash_flow_sheet_by_quarterly_em": {
+   "msg": "",
+   "n": "stock_cash_flow_sheet_by_quarterly_em",
+   "p": [
+    "symbol"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "东方财富-股票-财务分析-现金流量表-按单季度",
+   "st": "ok"
+  },
+  "stock_cash_flow_sheet_by_report_em": {
+   "msg": "",
+   "n": "stock_cash_flow_sheet_by_report_em",
+   "p": [
+    "symbol"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "东方财富-股票-财务分析-现金流量表-按报告期",
+   "st": "ok"
+  }
+ },
+ "comment": {
+  "stock_comment_em": {
+   "msg": "",
+   "n": "stock_comment_em",
+   "p": [],
+   "r": [],
+   "role": "kind",
+   "s": "东方财富网-数据中心-特色数据-千股千评",
+   "st": "ok"
+  }
+ },
+ "concept": {
+  "stock_board_concept_cons_em": {
+   "msg": "",
+   "n": "stock_board_concept_cons_em",
+   "p": [
+    "symbol"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "东方财富-沪深板块-概念板块-板块成份",
+   "st": "ok"
+  },
+  "stock_board_concept_hist_em": {
+   "msg": "",
+   "n": "stock_board_concept_hist_em",
+   "p": [
+    "symbol",
+    "period",
+    "start_date",
+    "end_date"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "东方财富网-沪深板块-概念板块-历史行情",
+   "st": "ok"
+  },
+  "stock_board_concept_hist_min_em": {
+   "msg": "",
+   "n": "stock_board_concept_hist_min_em",
+   "p": [
+    "symbol",
+    "period"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "东方财富网-沪深板块-概念板块-分时历史行情",
+   "st": "ok"
+  },
+  "stock_board_concept_index_ths": {
+   "msg": "",
+   "n": "stock_board_concept_index_ths",
+   "p": [
+    "symbol",
+    "start_date",
+    "end_date"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "同花顺-板块-概念板块-指数数据",
+   "st": "ok"
+  },
+  "stock_board_concept_info_ths": {
+   "msg": "",
+   "n": "stock_board_concept_info_ths",
+   "p": [
+    "symbol"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "同花顺-板块-概念板块-板块简介",
+   "st": "ok"
+  },
+  "stock_board_concept_name_em": {
+   "msg": "",
+   "n": "stock_board_concept_name_em",
+   "p": [],
+   "r": [],
+   "role": "kind",
+   "s": "东方财富网-行情中心-沪深京板块-概念板块-名称",
+   "st": "ok"
+  },
+  "stock_board_concept_name_ths": {
+   "msg": "",
+   "n": "stock_board_concept_name_ths",
+   "p": [],
+   "r": [],
+   "role": "kind",
+   "s": "同花顺-板块-概念板块-概念",
+   "st": "ok"
+  },
+  "stock_board_concept_spot_em": {
+   "msg": "",
+   "n": "stock_board_concept_spot_em",
+   "p": [
+    "symbol"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "东方财富网-行情中心-沪深京板块-概念板块-实时行情",
+   "st": "ok"
+  },
+  "stock_board_concept_summary_ths": {
+   "msg": "",
+   "n": "stock_board_concept_summary_ths",
+   "p": [],
+   "r": [],
+   "role": "kind",
+   "s": "同花顺-数据中心-概念板块-概念时间表",
+   "st": "ok"
+  },
+  "stock_concept_cons_futu": {
+   "msg": "",
+   "n": "stock_concept_cons_futu",
+   "p": [
+    "symbol"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "富途牛牛-主题投资-概念板块-成分股",
+   "st": "ok"
+  },
+  "stock_concept_fund_flow_hist": {
+   "msg": "",
+   "n": "stock_concept_fund_flow_hist",
+   "p": [
+    "symbol"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "东方财富网-数据中心-资金流向-概念资金流-概念历史资金流",
+   "st": "ok"
+  }
+ },
+ "disclosure-schedule": {
+  "stock_yysj_em": {
+   "msg": "",
+   "n": "stock_yysj_em",
+   "p": [
+    "symbol",
+    "date"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "东方财富-数据中心-年报季报-预约披露时间",
+   "st": "ok"
+  }
+ },
+ "dividend": {
+  "stock_dividend_cninfo": {
+   "msg": "",
+   "n": "stock_dividend_cninfo",
+   "p": [
+    "symbol"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "巨潮资讯-个股-历史分红",
+   "st": "ok"
+  },
+  "stock_fhps_em": {
+   "msg": "",
+   "n": "stock_fhps_em",
+   "p": [
+    "date"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "东方财富网-数据中心-年报季报-分红送配",
+   "st": "ok"
+  }
+ },
+ "earnings-report": {
+  "stock_yjbb_em": {
+   "msg": "",
+   "n": "stock_yjbb_em",
+   "p": [
+    "date"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "东方财富-数据中心-年报季报-业绩快报-业绩报表",
+   "st": "ok"
+  },
+  "stock_yjkb_em": {
+   "msg": "",
+   "n": "stock_yjkb_em",
+   "p": [
+    "date"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "东方财富-数据中心-年报季报-业绩快报",
+   "st": "ok"
+  },
+  "stock_yjyg_em": {
+   "msg": "",
+   "n": "stock_yjyg_em",
+   "p": [
+    "date"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "东方财富-数据中心-年报季报-业绩预告",
+   "st": "ok"
+  }
+ },
+ "financials": {
+  "stock_financial_analysis_indicator": {
+   "msg": "",
+   "n": "stock_financial_analysis_indicator",
+   "p": [
+    "symbol",
+    "start_year"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "新浪财经-财务分析-财务指标",
+   "st": "ok"
+  }
+ },
+ "flow": {
+  "stock_fund_flow_big_deal": {
+   "msg": "",
+   "n": "stock_fund_flow_big_deal",
+   "p": [],
+   "r": [],
+   "role": "kind",
+   "s": "同花顺-数据中心-资金流向-大单追踪",
+   "st": "ok"
+  },
+  "stock_fund_flow_concept": {
+   "msg": "",
+   "n": "stock_fund_flow_concept",
+   "p": [
+    "symbol"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "同花顺-数据中心-资金流向-概念资金流",
+   "st": "ok"
+  },
+  "stock_fund_flow_individual": {
+   "msg": "",
+   "n": "stock_fund_flow_individual",
+   "p": [
+    "symbol"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "同花顺-数据中心-资金流向-个股资金流",
+   "st": "ok"
+  },
+  "stock_fund_flow_industry": {
+   "msg": "",
+   "n": "stock_fund_flow_industry",
+   "p": [
+    "symbol"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "同花顺-数据中心-资金流向-行业资金流",
+   "st": "ok"
+  },
+  "stock_individual_fund_flow": {
+   "msg": "",
+   "n": "stock_individual_fund_flow",
+   "p": [
+    "stock",
+    "market"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "东方财富网-数据中心-资金流向-个股",
+   "st": "ok"
+  },
+  "stock_individual_fund_flow_rank": {
+   "msg": "",
+   "n": "stock_individual_fund_flow_rank",
+   "p": [
+    "indicator"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "东方财富网-数据中心-资金流向-排名",
+   "st": "ok"
+  },
+  "stock_main_fund_flow": {
+   "msg": "",
+   "n": "stock_main_fund_flow",
+   "p": [
+    "symbol"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "东方财富网-数据中心-资金流向-主力净流入排名",
+   "st": "ok"
+  },
+  "stock_market_fund_flow": {
+   "msg": "",
+   "n": "stock_market_fund_flow",
+   "p": [],
+   "r": [],
+   "role": "kind",
+   "s": "东方财富网-数据中心-资金流向-大盘",
+   "st": "ok"
+  },
+  "stock_sector_fund_flow_hist": {
+   "msg": "",
+   "n": "stock_sector_fund_flow_hist",
+   "p": [
+    "symbol"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "东方财富网-数据中心-资金流向-行业资金流-行业历史资金流",
+   "st": "ok"
+  },
+  "stock_sector_fund_flow_rank": {
+   "msg": "",
+   "n": "stock_sector_fund_flow_rank",
+   "p": [
+    "indicator",
+    "sector_type"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "东方财富网-数据中心-资金流向-板块资金流-排名",
+   "st": "ok"
+  },
+  "stock_sector_fund_flow_summary": {
+   "msg": "",
+   "n": "stock_sector_fund_flow_summary",
+   "p": [
+    "symbol",
+    "indicator"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "东方财富网-数据中心-资金流向-行业资金流-xx行业个股资金流",
+   "st": "ok"
+  }
+ },
+ "fund": {
+  "amac_fund_abs": {
+   "msg": "",
+   "n": "amac_fund_abs",
+   "p": [],
+   "r": [],
+   "role": "kind",
+   "s": "中国证券投资基金业协会-信息公示-基金产品公示-资产支持专项计划公示信息",
+   "st": "ok"
+  },
+  "amac_fund_account_info": {
+   "msg": "",
+   "n": "amac_fund_account_info",
+   "p": [],
+   "r": [],
+   "role": "kind",
+   "s": "中国证券投资基金业协会-信息公示-基金产品公示-基金公司及子公司集合资管产品公示",
+   "st": "ok"
+  },
+  "amac_fund_info": {
+   "msg": "",
+   "n": "amac_fund_info",
+   "p": [
+    "start_page",
+    "end_page"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "中国证券投资基金业协会-信息公示-基金产品-私募基金管理人基金产品",
+   "st": "ok"
+  },
+  "amac_fund_sub_info": {
+   "msg": "",
+   "n": "amac_fund_sub_info",
+   "p": [],
+   "r": [],
+   "role": "kind",
+   "s": "中国证券投资基金业协会-信息公示-基金产品公示-证券公司私募投资基金",
+   "st": "ok"
+  },
+  "amac_futures_info": {
+   "msg": "",
+   "n": "amac_futures_info",
+   "p": [],
+   "r": [],
+   "role": "kind",
+   "s": "中国证券投资基金业协会-信息公示-基金产品公示-期货公司集合资管产品公示",
+   "st": "ok"
+  },
+  "amac_manager_cancelled_info": {
+   "msg": "",
+   "n": "amac_manager_cancelled_info",
+   "p": [],
+   "r": [],
+   "role": "kind",
+   "s": "中国证券投资基金业协会-信息公示-诚信信息公示-已注销私募基金管理人名单",
+   "st": "ok"
+  },
+  "amac_manager_classify_info": {
+   "msg": "",
+   "n": "amac_manager_classify_info",
+   "p": [],
+   "r": [],
+   "role": "kind",
+   "s": "中国证券投资基金业协会-信息公示-私募基金管理人公示-私募基金管理人分类公示",
+   "st": "ok"
+  },
+  "amac_manager_info": {
+   "msg": "",
+   "n": "amac_manager_info",
+   "p": [],
+   "r": [],
+   "role": "kind",
+   "s": "中国证券投资基金业协会-信息公示-私募基金管理人公示-私募基金管理人综合查询",
+   "st": "ok"
+  },
+  "amac_member_info": {
+   "msg": "",
+   "n": "amac_member_info",
+   "p": [],
+   "r": [],
+   "role": "kind",
+   "s": "中国证券投资基金业协会-信息公示-会员信息-会员机构综合查询",
+   "st": "ok"
+  },
+  "amac_member_sub_info": {
+   "msg": "",
+   "n": "amac_member_sub_info",
+   "p": [],
+   "r": [],
+   "role": "kind",
+   "s": "中国证券投资基金业协会-信息公示-私募基金管理人公示-证券公司私募基金子公司管理人信息公示",
+   "st": "ok"
+  },
+  "amac_securities_info": {
+   "msg": "",
+   "n": "amac_securities_info",
+   "p": [],
+   "r": [],
+   "role": "kind",
+   "s": "中国证券投资基金业协会-信息公示-基金产品公示-证券公司集合资管产品公示",
+   "st": "ok"
+  },
+  "fund_etf_category_sina": {
+   "msg": "",
+   "n": "fund_etf_category_sina",
+   "p": [
+    "symbol"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "新浪财经-基金列表",
+   "st": "ok"
+  },
+  "fund_etf_fund_info_em": {
+   "msg": "",
+   "n": "fund_etf_fund_info_em",
+   "p": [
+    "fund",
+    "start_date",
+    "end_date"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "东方财富网站-天天基金网-基金数据-场内交易基金-历史净值明细",
+   "st": "ok"
+  },
+  "fund_etf_hist_em": {
+   "msg": "",
+   "n": "fund_etf_hist_em",
+   "p": [
+    "symbol",
+    "period",
+    "start_date",
+    "end_date"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "东方财富-ETF行情",
+   "st": "ok"
+  },
+  "fund_etf_hist_min_em": {
+   "msg": "",
+   "n": "fund_etf_hist_min_em",
+   "p": [
+    "symbol",
+    "start_date",
+    "end_date",
+    "period"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "东方财富-ETF 行情",
+   "st": "ok"
+  },
+  "fund_etf_hist_sina": {
+   "msg": "",
+   "n": "fund_etf_hist_sina",
+   "p": [
+    "symbol"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "新浪财经-基金-ETF 基金-日行情数据",
+   "st": "ok"
+  },
+  "fund_etf_spot_em": {
+   "msg": "",
+   "n": "fund_etf_spot_em",
+   "p": [],
+   "r": [],
+   "role": "kind",
+   "s": "东方财富-ETF 实时行情",
+   "st": "ok"
+  },
+  "fund_fh_em": {
+   "msg": "",
+   "n": "fund_fh_em",
+   "p": [
+    "year",
+    "typ",
+    "rank",
+    "sort"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "天天基金网-基金数据-分红送配-基金分红",
+   "st": "ok"
+  },
+  "fund_fh_rank_em": {
+   "msg": "",
+   "n": "fund_fh_rank_em",
+   "p": [],
+   "r": [],
+   "role": "kind",
+   "s": "天天基金网-基金数据-分红送配-基金分红排行",
+   "st": "ok"
+  },
+  "fund_financial_fund_info_em": {
+   "msg": "",
+   "n": "fund_financial_fund_info_em",
+   "p": [
+    "symbol"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "东方财富网站-天天基金网-基金数据-理财型基金收益-历史净值明细",
+   "st": "ok"
+  },
+  "fund_graded_fund_info_em": {
+   "msg": "",
+   "n": "fund_graded_fund_info_em",
+   "p": [
+    "symbol"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "东方财富网站-天天基金网-基金数据-分级基金净值-历史净值明细",
+   "st": "ok"
+  },
+  "fund_lof_hist_em": {
+   "msg": "",
+   "n": "fund_lof_hist_em",
+   "p": [
+    "symbol",
+    "period",
+    "start_date",
+    "end_date"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "东方财富-LOF 行情",
+   "st": "ok"
+  },
+  "fund_lof_hist_min_em": {
+   "msg": "",
+   "n": "fund_lof_hist_min_em",
+   "p": [
+    "symbol",
+    "start_date",
+    "end_date",
+    "period"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "东方财富-LOF 分时行情",
+   "st": "ok"
+  },
+  "fund_lof_spot_em": {
+   "msg": "",
+   "n": "fund_lof_spot_em",
+   "p": [],
+   "r": [],
+   "role": "kind",
+   "s": "东方财富-LOF 实时行情",
+   "st": "ok"
+  },
+  "fund_money_fund_info_em": {
+   "msg": "",
+   "n": "fund_money_fund_info_em",
+   "p": [
+    "symbol"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "东方财富网-天天基金网-基金数据-货币型基金收益-历史净值数据",
+   "st": "ok"
+  },
+  "fund_new_found_ths": {
+   "msg": "",
+   "n": "fund_new_found_ths",
+   "p": [
+    "symbol"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "同花顺-基金数据-新发基金",
+   "st": "ok"
+  },
+  "fund_open_fund_daily_em": {
+   "msg": "",
+   "n": "fund_open_fund_daily_em",
+   "p": [],
+   "r": [],
+   "role": "kind",
+   "s": "东方财富网-天天基金网-基金数据-开放式基金净值",
+   "st": "ok"
+  },
+  "fund_open_fund_info_em": {
+   "msg": "",
+   "n": "fund_open_fund_info_em",
+   "p": [
+    "symbol",
+    "indicator",
+    "period"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "东方财富网-天天基金网-基金数据-开放式基金净值",
+   "st": "ok"
+  },
+  "fund_portfolio_hold_em": {
+   "msg": "",
+   "n": "fund_portfolio_hold_em",
+   "p": [
+    "symbol",
+    "date"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "天天基金网-基金档案-投资组合-基金持仓",
+   "st": "ok"
+  },
+  "fund_report_asset_allocation_cninfo": {
+   "msg": "",
+   "n": "fund_report_asset_allocation_cninfo",
+   "p": [],
+   "r": [],
+   "role": "kind",
+   "s": "巨潮资讯-数据中心-专题统计-基金报表-基金资产配置",
+   "st": "ok"
+  },
+  "fund_report_industry_allocation_cninfo": {
+   "msg": "",
+   "n": "fund_report_industry_allocation_cninfo",
+   "p": [
+    "date"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "巨潮资讯-数据中心-专题统计-基金报表-基金行业配置",
+   "st": "ok"
+  },
+  "fund_report_stock_cninfo": {
+   "msg": "",
+   "n": "fund_report_stock_cninfo",
+   "p": [
+    "date"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "巨潮资讯-数据中心-专题统计-基金报表-基金重仓股",
+   "st": "ok"
+  },
+  "reits_hist_em": {
+   "msg": "",
+   "n": "reits_hist_em",
+   "p": [
+    "symbol"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "东方财富网-行情中心-REITs-沪深 REITs-历史行情",
+   "st": "ok"
+  },
+  "reits_hist_min_em": {
+   "msg": "",
+   "n": "reits_hist_min_em",
+   "p": [
+    "symbol"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "东方财富网-行情中心-REITs-沪深 REITs-历史行情",
+   "st": "ok"
+  },
+  "reits_realtime_em": {
+   "msg": "",
+   "n": "reits_realtime_em",
+   "p": [],
+   "r": [],
+   "role": "kind",
+   "s": "东方财富网-行情中心-REITs-沪深 REITs",
+   "st": "ok"
+  }
+ },
+ "futures": {
+  "futures_comm_info": {
+   "msg": "",
+   "n": "futures_comm_info",
+   "p": [
+    "symbol"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "九期网-期货手续费",
+   "st": "ok"
+  },
+  "futures_contract_detail_em": {
+   "msg": "",
+   "n": "futures_contract_detail_em",
+   "p": [
+    "symbol"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "查询期货合约详情",
+   "st": "ok"
+  },
+  "futures_contract_info_dce": {
+   "msg": "",
+   "n": "futures_contract_info_dce",
+   "p": [],
+   "r": [],
+   "role": "kind",
+   "s": "大连商品交易所-数据中心-业务数据-交易参数-合约信息",
+   "st": "ok"
+  },
+  "futures_contract_info_gfex": {
+   "msg": "",
+   "n": "futures_contract_info_gfex",
+   "p": [],
+   "r": [],
+   "role": "kind",
+   "s": "广州期货交易所-业务/服务-合约信息",
+   "st": "ok"
+  },
+  "futures_contract_info_shfe": {
+   "msg": "",
+   "n": "futures_contract_info_shfe",
+   "p": [
+    "date"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "上海期货交易所-交易所服务-业务数据-交易参数汇总查询",
+   "st": "ok"
+  },
+  "futures_dce_position_rank": {
+   "msg": "",
+   "n": "futures_dce_position_rank",
+   "p": [
+    "date",
+    "vars_list"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "大连商品交易所-每日持仓排名-具体合约",
+   "st": "ok"
+  },
+  "futures_dce_position_rank_other": {
+   "msg": "",
+   "n": "futures_dce_position_rank_other",
+   "p": [
+    "date"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "大连商品交易所-每日持仓排名-具体合约-补充",
+   "st": "ok"
+  },
+  "futures_delivery_dce": {
+   "msg": "",
+   "n": "futures_delivery_dce",
+   "p": [
+    "date"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "大连商品交易所-交割统计",
+   "st": "ok"
+  },
+  "futures_delivery_match_dce": {
+   "msg": "",
+   "n": "futures_delivery_match_dce",
+   "p": [
+    "symbol"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "大连商品交易所-交割配对表",
+   "st": "ok"
+  },
+  "futures_delivery_shfe": {
+   "msg": "",
+   "n": "futures_delivery_shfe",
+   "p": [
+    "date"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "上海期货交易所-交割情况表",
+   "st": "ok"
+  },
+  "futures_display_main_sina": {
+   "msg": "",
+   "n": "futures_display_main_sina",
+   "p": [],
+   "r": [],
+   "role": "kind",
+   "s": "新浪主力连续合约品种一览表",
+   "st": "ok"
+  },
+  "futures_gfex_position_rank": {
+   "msg": "",
+   "n": "futures_gfex_position_rank",
+   "p": [
+    "date",
+    "vars_list"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "广州期货交易所-日成交持仓排名",
+   "st": "ok"
+  },
+  "futures_gfex_warehouse_receipt": {
+   "msg": "",
+   "n": "futures_gfex_warehouse_receipt",
+   "p": [
+    "date"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "广州期货交易所-行情数据-仓单日报",
+   "st": "ok"
+  },
+  "futures_global_hist_em": {
+   "msg": "",
+   "n": "futures_global_hist_em",
+   "p": [
+    "symbol"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "东方财富网-行情中心-期货市场-国际期货-历史行情数据",
+   "st": "ok"
+  },
+  "futures_hist_em": {
+   "msg": "",
+   "n": "futures_hist_em",
+   "p": [
+    "symbol",
+    "period",
+    "start_date",
+    "end_date"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "东方财富网-期货行情-行情数据",
+   "st": "ok"
+  },
+  "futures_hist_table_em": {
+   "msg": "",
+   "n": "futures_hist_table_em",
+   "p": [],
+   "r": [],
+   "role": "kind",
+   "s": "东方财富网-期货行情-交易所品种对照表",
+   "st": "ok"
+  },
+  "futures_inventory_99": {
+   "msg": "",
+   "n": "futures_inventory_99",
+   "p": [
+    "symbol"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "99 期货网-大宗商品库存数据",
+   "st": "ok"
+  },
+  "futures_inventory_em": {
+   "msg": "",
+   "n": "futures_inventory_em",
+   "p": [
+    "symbol"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "东方财富网-数据中心-期货库存数据",
+   "st": "ok"
+  },
+  "futures_main_sina": {
+   "msg": "",
+   "n": "futures_main_sina",
+   "p": [
+    "symbol",
+    "start_date",
+    "end_date"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "新浪财经-期货-主力连续日数据",
+   "st": "ok"
+  },
+  "futures_settlement_price_sgx": {
+   "msg": "",
+   "n": "futures_settlement_price_sgx",
+   "p": [
+    "date"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "新加坡交易所-衍生品-历史数据-历史结算价格",
+   "st": "ok"
+  },
+  "futures_spot_sys": {
+   "msg": "",
+   "n": "futures_spot_sys",
+   "p": [
+    "symbol",
+    "indicator"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "生意社-商品与期货-现期图",
+   "st": "ok"
+  },
+  "futures_symbol_mark": {
+   "msg": "",
+   "n": "futures_symbol_mark",
+   "p": [],
+   "r": [],
+   "role": "kind",
+   "s": "期货的品种和代码映射",
+   "st": "ok"
+  },
+  "futures_to_spot_dce": {
+   "msg": "",
+   "n": "futures_to_spot_dce",
+   "p": [
+    "date"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "大连商品交易所-期转现",
+   "st": "ok"
+  },
+  "futures_to_spot_shfe": {
+   "msg": "",
+   "n": "futures_to_spot_shfe",
+   "p": [
+    "date"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "上海期货交易所-期转现",
+   "st": "ok"
+  },
+  "futures_warehouse_receipt_dce": {
+   "msg": "",
+   "n": "futures_warehouse_receipt_dce",
+   "p": [
+    "date"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "大连商品交易所-行情数据-统计数据-日统计-仓单日报",
+   "st": "ok"
+  },
+  "futures_zh_daily_sina": {
+   "msg": "",
+   "n": "futures_zh_daily_sina",
+   "p": [
+    "symbol"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "中国各品种期货日频率数据",
+   "st": "ok"
+  },
+  "futures_zh_minute_sina": {
+   "msg": "",
+   "n": "futures_zh_minute_sina",
+   "p": [
+    "symbol",
+    "period"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "中国各品种期货分钟频率数据",
+   "st": "ok"
+  },
+  "futures_zh_realtime": {
+   "msg": "",
+   "n": "futures_zh_realtime",
+   "p": [
+    "symbol"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "期货品种当前时刻所有可交易的合约实时数据",
+   "st": "ok"
+  },
+  "futures_zh_spot": {
+   "msg": "",
+   "n": "futures_zh_spot",
+   "p": [
+    "symbol",
+    "market",
+    "adjust"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "期货的实时行情数据",
+   "st": "ok"
+  },
+  "get_czce_daily": {
+   "msg": "",
+   "n": "get_czce_daily",
+   "p": [
+    "date"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "郑州商品交易所-日频率-量价数据",
+   "st": "ok"
+  },
+  "get_dce_daily": {
+   "msg": "",
+   "n": "get_dce_daily",
+   "p": [
+    "date"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "大连商品交易所日交易数据",
+   "st": "ok"
+  },
+  "get_dce_rank_table": {
+   "msg": "",
+   "n": "get_dce_rank_table",
+   "p": [
+    "date",
+    "vars_list"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "大连商品交易所前 20 会员持仓排名数据明细，由于交易所网站问题，需要 20200720 之后才有数据",
+   "st": "ok"
+  },
+  "get_qhkc_fund_bs": {
+   "msg": "",
+   "n": "get_qhkc_fund_bs",
+   "p": [
+    "date",
+    "url"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "奇货可查-资金-净持仓分布",
+   "st": "ok"
+  },
+  "get_qhkc_fund_money_change": {
+   "msg": "",
+   "n": "get_qhkc_fund_money_change",
+   "p": [
+    "date",
+    "url"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "奇货可查-资金-成交额分布",
+   "st": "ok"
+  },
+  "get_qhkc_fund_position": {
+   "msg": "",
+   "n": "get_qhkc_fund_position",
+   "p": [
+    "date",
+    "url"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "奇货可查-资金-总持仓分布",
+   "st": "ok"
+  },
+  "get_qhkc_index": {
+   "msg": "",
+   "n": "get_qhkc_index",
+   "p": [
+    "name",
+    "url"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "奇货可查-指数-指数详情",
+   "st": "ok"
+  },
+  "get_qhkc_index_profit_loss": {
+   "msg": "",
+   "n": "get_qhkc_index_profit_loss",
+   "p": [
+    "name",
+    "url",
+    "start_date",
+    "end_date"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "奇货可查-指数-盈亏详情",
+   "st": "ok"
+  },
+  "get_qhkc_index_trend": {
+   "msg": "",
+   "n": "get_qhkc_index_trend",
+   "p": [
+    "name",
+    "url"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "奇货可查-指数-大资金动向",
+   "st": "ok"
+  },
+  "qhkc_tool_foreign": {
+   "msg": "",
+   "n": "qhkc_tool_foreign",
+   "p": [
+    "url"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "奇货可查-工具-外盘比价",
+   "st": "ok"
+  }
+ },
+ "goodwill": {
+  "stock_sy_em": {
+   "msg": "",
+   "n": "stock_sy_em",
+   "p": [
+    "date"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "东方财富网-数据中心-特色数据-商誉-个股商誉明细",
+   "st": "ok"
+  }
+ },
+ "hk": {
+  "stock_hk_daily": {
+   "msg": "",
+   "n": "stock_hk_daily",
+   "p": [
+    "symbol",
+    "adjust"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "新浪财经-港股-个股的历史行情数据",
+   "st": "ok"
+  },
+  "stock_hk_famous_spot_em": {
+   "msg": "",
+   "n": "stock_hk_famous_spot_em",
+   "p": [],
+   "r": [],
+   "role": "kind",
+   "s": "东方财富网-行情中心-港股市场-知名港股",
+   "st": "ok"
+  },
+  "stock_hk_ggt_components_em": {
+   "msg": "",
+   "n": "stock_hk_ggt_components_em",
+   "p": [],
+   "r": [],
+   "role": "kind",
+   "s": "东方财富网-行情中心-港股市场-港股通成份股",
+   "st": "ok"
+  },
+  "stock_hk_hist": {
+   "msg": "",
+   "n": "stock_hk_hist",
+   "p": [
+    "symbol",
+    "period",
+    "start_date",
+    "end_date"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "东方财富网-行情-港股-每日行情",
+   "st": "ok"
+  },
+  "stock_hk_hist_min_em": {
+   "msg": "",
+   "n": "stock_hk_hist_min_em",
+   "p": [
+    "symbol",
+    "period",
+    "adjust",
+    "start_date"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "东方财富网-行情-港股-每日分时行情",
+   "st": "ok"
+  },
+  "stock_hk_hot_rank_em": {
+   "msg": "",
+   "n": "stock_hk_hot_rank_em",
+   "p": [],
+   "r": [],
+   "role": "kind",
+   "s": "东方财富-个股人气榜-人气榜-港股市场",
+   "st": "ok"
+  },
+  "stock_hk_index_daily_em": {
+   "msg": "",
+   "n": "stock_hk_index_daily_em",
+   "p": [
+    "symbol"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "东方财富网-港股-股票指数数据",
+   "st": "ok"
+  },
+  "stock_hk_index_daily_sina": {
+   "msg": "",
+   "n": "stock_hk_index_daily_sina",
+   "p": [
+    "symbol"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "新浪财经-港股指数-历史行情数据",
+   "st": "ok"
+  },
+  "stock_hk_index_spot_em": {
+   "msg": "",
+   "n": "stock_hk_index_spot_em",
+   "p": [],
+   "r": [],
+   "role": "kind",
+   "s": "东方财富网-行情中心-港股-指数实时行情",
+   "st": "ok"
+  },
+  "stock_hk_indicator_eniu": {
+   "msg": "",
+   "n": "stock_hk_indicator_eniu",
+   "p": [
+    "symbol",
+    "indicator"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "亿牛网-港股指标",
+   "st": "ok"
+  },
+  "stock_hk_main_board_spot_em": {
+   "msg": "",
+   "n": "stock_hk_main_board_spot_em",
+   "p": [],
+   "r": [],
+   "role": "kind",
+   "s": "东方财富网-港股-主板-实时行情",
+   "st": "ok"
+  },
+  "stock_hk_spot": {
+   "msg": "",
+   "n": "stock_hk_spot",
+   "p": [],
+   "r": [],
+   "role": "kind",
+   "s": "新浪财经-港股的所有港股的实时行情数据",
+   "st": "ok"
+  },
+  "stock_hk_spot_em": {
+   "msg": "",
+   "n": "stock_hk_spot_em",
+   "p": [],
+   "r": [],
+   "role": "kind",
+   "s": "东方财富网-港股-实时行情",
+   "st": "ok"
+  },
+  "stock_zh_ah_daily": {
+   "msg": "",
+   "n": "stock_zh_ah_daily",
+   "p": [
+    "symbol",
+    "start_year",
+    "end_year",
+    "adjust"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "腾讯财经-港股-AH-股票历史行情",
+   "st": "ok"
+  },
+  "stock_zh_ah_spot_em": {
+   "msg": "",
+   "n": "stock_zh_ah_spot_em",
+   "p": [],
+   "r": [],
+   "role": "kind",
+   "s": "东方财富网-行情中心-沪深港通-AH股比价-实时行情",
+   "st": "ok"
+  },
+  "stock_zh_b_daily": {
+   "msg": "",
+   "n": "stock_zh_b_daily",
+   "p": [
+    "symbol",
+    "start_date",
+    "end_date",
+    "adjust"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "新浪财经-B 股-个股的历史行情数据，大量抓取容易封 IP",
+   "st": "ok"
+  },
+  "stock_zh_b_spot_em": {
+   "msg": "",
+   "n": "stock_zh_b_spot_em",
+   "p": [],
+   "r": [],
+   "role": "kind",
+   "s": "东方财富网- B 股-实时行情",
+   "st": "ok"
+  }
+ },
+ "holders": {
+  "stock_gdfx_free_holding_analyse_em": {
+   "msg": "",
+   "n": "stock_gdfx_free_holding_analyse_em",
+   "p": [
+    "date"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "东方财富网-数据中心-股东分析-股东持股分析-十大流通股东",
+   "st": "ok"
+  },
+  "stock_gdfx_free_holding_change_em": {
+   "msg": "",
+   "n": "stock_gdfx_free_holding_change_em",
+   "p": [
+    "date"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "东方财富网-数据中心-股东分析-股东持股变动统计-十大流通股东",
+   "st": "ok"
+  },
+  "stock_gdfx_free_holding_detail_em": {
+   "msg": "",
+   "n": "stock_gdfx_free_holding_detail_em",
+   "p": [
+    "date"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "东方财富网-数据中心-股东分析-股东持股明细-十大流通股东",
+   "st": "ok"
+  },
+  "stock_gdfx_free_holding_statistics_em": {
+   "msg": "",
+   "n": "stock_gdfx_free_holding_statistics_em",
+   "p": [
+    "date"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "东方财富网-数据中心-股东分析-股东持股统计-十大流通股东",
+   "st": "ok"
+  },
+  "stock_gdfx_free_holding_teamwork_em": {
+   "msg": "",
+   "n": "stock_gdfx_free_holding_teamwork_em",
+   "p": [
+    "symbol"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "东方财富网-数据中心-股东分析-股东协同-十大流通股东",
+   "st": "ok"
+  },
+  "stock_gdfx_free_top_10_em": {
+   "msg": "",
+   "n": "stock_gdfx_free_top_10_em",
+   "p": [
+    "symbol",
+    "date"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "东方财富网-个股-十大流通股东",
+   "st": "ok"
+  },
+  "stock_gdfx_holding_analyse_em": {
+   "msg": "",
+   "n": "stock_gdfx_holding_analyse_em",
+   "p": [
+    "date"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "东方财富网-数据中心-股东分析-股东持股分析-十大股东",
+   "st": "ok"
+  },
+  "stock_gdfx_holding_change_em": {
+   "msg": "",
+   "n": "stock_gdfx_holding_change_em",
+   "p": [
+    "date"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "东方财富网-数据中心-股东分析-股东持股变动统计-十大股东",
+   "st": "ok"
+  },
+  "stock_gdfx_holding_detail_em": {
+   "msg": "",
+   "n": "stock_gdfx_holding_detail_em",
+   "p": [
+    "date",
+    "indicator",
+    "symbol"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "东方财富网-数据中心-股东分析-股东持股明细-十大股东",
+   "st": "ok"
+  },
+  "stock_gdfx_holding_statistics_em": {
+   "msg": "",
+   "n": "stock_gdfx_holding_statistics_em",
+   "p": [
+    "date"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "东方财富网-数据中心-股东分析-股东持股统计-十大股东",
+   "st": "ok"
+  },
+  "stock_gdfx_holding_teamwork_em": {
+   "msg": "",
+   "n": "stock_gdfx_holding_teamwork_em",
+   "p": [
+    "symbol"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "东方财富网-数据中心-股东分析-股东协同-十大股东",
+   "st": "ok"
+  },
+  "stock_ggcg_em": {
+   "msg": "",
+   "n": "stock_ggcg_em",
+   "p": [
+    "symbol"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "东方财富网-数据中心-特色数据-高管持股",
+   "st": "ok"
+  },
+  "stock_hold_change_cninfo": {
+   "msg": "",
+   "n": "stock_hold_change_cninfo",
+   "p": [
+    "symbol"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "巨潮资讯-数据中心-专题统计-股东股本-股本变动",
+   "st": "ok"
+  },
+  "stock_hold_control_cninfo": {
+   "msg": "",
+   "n": "stock_hold_control_cninfo",
+   "p": [
+    "symbol"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "巨潮资讯-数据中心-专题统计-股东股本-实际控制人持股变动",
+   "st": "ok"
+  },
+  "stock_hold_management_detail_cninfo": {
+   "msg": "",
+   "n": "stock_hold_management_detail_cninfo",
+   "p": [
+    "symbol"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "巨潮资讯-数据中心-专题统计-股东股本-高管持股变动明细",
+   "st": "ok"
+  },
+  "stock_hold_management_detail_em": {
+   "msg": "",
+   "n": "stock_hold_management_detail_em",
+   "p": [],
+   "r": [],
+   "role": "kind",
+   "s": "东方财富网-数据中心-特色数据-高管持股-董监高及相关人员持股变动明细",
+   "st": "ok"
+  },
+  "stock_hold_num_cninfo": {
+   "msg": "",
+   "n": "stock_hold_num_cninfo",
+   "p": [
+    "date"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "巨潮资讯-数据中心-专题统计-股东股本-股东人数及持股集中度",
+   "st": "ok"
+  },
+  "stock_share_change_cninfo": {
+   "msg": "",
+   "n": "stock_share_change_cninfo",
+   "p": [
+    "symbol",
+    "start_date",
+    "end_date"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "巨潮资讯-股本股东-公司股本变动",
+   "st": "ok"
+  }
+ },
+ "hot": {
+  "stock_hot_deal_xq": {
+   "msg": "",
+   "n": "stock_hot_deal_xq",
+   "p": [
+    "symbol"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "雪球-沪深股市-热度排行榜-分享交易排行榜",
+   "st": "ok"
+  },
+  "stock_hot_follow_xq": {
+   "msg": "",
+   "n": "stock_hot_follow_xq",
+   "p": [
+    "symbol"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "雪球-沪深股市-热度排行榜-关注排行榜",
+   "st": "ok"
+  },
+  "stock_hot_rank_em": {
+   "msg": "",
+   "n": "stock_hot_rank_em",
+   "p": [],
+   "r": [],
+   "role": "kind",
+   "s": "东方财富-个股人气榜-人气榜",
+   "st": "ok"
+  },
+  "stock_hot_search_baidu": {
+   "msg": "",
+   "n": "stock_hot_search_baidu",
+   "p": [
+    "symbol",
+    "date",
+    "time"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "百度股市通-热搜股票",
+   "st": "ok"
+  },
+  "stock_hot_tweet_xq": {
+   "msg": "",
+   "n": "stock_hot_tweet_xq",
+   "p": [
+    "symbol"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "雪球-沪深股市-热度排行榜-讨论排行榜",
+   "st": "ok"
+  }
+ },
+ "income": {
+  "stock_profit_sheet_by_report_em": {
+   "msg": "",
+   "n": "stock_profit_sheet_by_report_em",
+   "p": [
+    "symbol"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "东方财富-股票-财务分析-利润表-报告期",
+   "st": "ok"
+  }
+ },
+ "index": {
+  "index_ai_cx": {
+   "msg": "",
+   "n": "index_ai_cx",
+   "p": [],
+   "r": [],
+   "role": "kind",
+   "s": "财新数据-指数报告-AI策略指数",
+   "st": "ok"
+  },
+  "index_awpr_cx": {
+   "msg": "",
+   "n": "index_awpr_cx",
+   "p": [],
+   "r": [],
+   "role": "kind",
+   "s": "财新数据-指数报告-新经济入职工资溢价水平",
+   "st": "ok"
+  },
+  "index_bei_cx": {
+   "msg": "",
+   "n": "index_bei_cx",
+   "p": [],
+   "r": [],
+   "role": "kind",
+   "s": "财新数据-指数报告-基石经济指数",
+   "st": "ok"
+  },
+  "index_bi_cx": {
+   "msg": "",
+   "n": "index_bi_cx",
+   "p": [],
+   "r": [],
+   "role": "kind",
+   "s": "财新数据-指数报告-基础指数",
+   "st": "ok"
+  },
+  "index_bloomberg_billionaires": {
+   "msg": "",
+   "n": "index_bloomberg_billionaires",
+   "p": [],
+   "r": [],
+   "role": "kind",
+   "s": "Bloomberg Billionaires Index",
+   "st": "ok"
+  },
+  "index_bloomberg_billionaires_hist": {
+   "msg": "",
+   "n": "index_bloomberg_billionaires_hist",
+   "p": [
+    "year"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "Bloomberg Billionaires Index",
+   "st": "ok"
+  },
+  "index_cci_cx": {
+   "msg": "",
+   "n": "index_cci_cx",
+   "p": [],
+   "r": [],
+   "role": "kind",
+   "s": "财新数据-指数报告-大宗商品指数",
+   "st": "ok"
+  },
+  "index_ci_cx": {
+   "msg": "",
+   "n": "index_ci_cx",
+   "p": [],
+   "r": [],
+   "role": "kind",
+   "s": "财新数据-指数报告-资本投入指数",
+   "st": "ok"
+  },
+  "index_code_id_map_em": {
+   "msg": "",
+   "n": "index_code_id_map_em",
+   "p": [],
+   "r": [],
+   "role": "kind",
+   "s": "东方财富-股票和市场代码",
+   "st": "ok"
+  },
+  "index_dei_cx": {
+   "msg": "",
+   "n": "index_dei_cx",
+   "p": [],
+   "r": [],
+   "role": "kind",
+   "s": "财新数据-指数报告-数字经济指数",
+   "st": "ok"
+  },
+  "index_eri": {
+   "msg": "",
+   "n": "index_eri",
+   "p": [
+    "symbol"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "浙江省排污权交易指数",
+   "st": "ok"
+  },
+  "index_fi_cx": {
+   "msg": "",
+   "n": "index_fi_cx",
+   "p": [],
+   "r": [],
+   "role": "kind",
+   "s": "财新数据-指数报告-融合指数",
+   "st": "ok"
+  },
+  "index_global_hist_em": {
+   "msg": "",
+   "n": "index_global_hist_em",
+   "p": [
+    "symbol"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "东方财富网-行情中心-全球指数-历史行情数据",
+   "st": "ok"
+  },
+  "index_global_hist_sina": {
+   "msg": "",
+   "n": "index_global_hist_sina",
+   "p": [
+    "symbol"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "新浪财经-行情中心-环球市场-历史行情",
+   "st": "ok"
+  },
+  "index_global_spot_em": {
+   "msg": "",
+   "n": "index_global_spot_em",
+   "p": [],
+   "r": [],
+   "role": "kind",
+   "s": "东方财富网-行情中心-全球指数-实时行情数据",
+   "st": "ok"
+  },
+  "index_hist_fund_sw": {
+   "msg": "",
+   "n": "index_hist_fund_sw",
+   "p": [
+    "symbol",
+    "period"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "申万宏源研究-申万指数-指数发布-基金指数-历史行情",
+   "st": "ok"
+  },
+  "index_ii_cx": {
+   "msg": "",
+   "n": "index_ii_cx",
+   "p": [],
+   "r": [],
+   "role": "kind",
+   "s": "财新数据-指数报告-产业指数",
+   "st": "ok"
+  },
+  "index_kq_fz": {
+   "msg": "",
+   "n": "index_kq_fz",
+   "p": [
+    "symbol"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "中国柯桥纺织指数",
+   "st": "ok"
+  },
+  "index_li_cx": {
+   "msg": "",
+   "n": "index_li_cx",
+   "p": [],
+   "r": [],
+   "role": "kind",
+   "s": "财新数据-指数报告-劳动力投入指数",
+   "st": "ok"
+  },
+  "index_neaw_cx": {
+   "msg": "",
+   "n": "index_neaw_cx",
+   "p": [],
+   "r": [],
+   "role": "kind",
+   "s": "财新数据-指数报告-新经济行业入职平均工资水平",
+   "st": "ok"
+  },
+  "index_neei_cx": {
+   "msg": "",
+   "n": "index_neei_cx",
+   "p": [],
+   "r": [],
+   "role": "kind",
+   "s": "财新数据-指数报告-新动能指数",
+   "st": "ok"
+  },
+  "index_nei_cx": {
+   "msg": "",
+   "n": "index_nei_cx",
+   "p": [],
+   "r": [],
+   "role": "kind",
+   "s": "财新数据-指数报告-中国新经济指数",
+   "st": "ok"
+  },
+  "index_news_sentiment_scope": {
+   "msg": "",
+   "n": "index_news_sentiment_scope",
+   "p": [],
+   "r": [],
+   "role": "kind",
+   "s": "数库-A股新闻情绪指数",
+   "st": "ok"
+  },
+  "index_pmi_com_cx": {
+   "msg": "",
+   "n": "index_pmi_com_cx",
+   "p": [],
+   "r": [],
+   "role": "kind",
+   "s": "财新数据-指数报告-财新中国 PMI-综合 PMI",
+   "st": "ok"
+  },
+  "index_pmi_man_cx": {
+   "msg": "",
+   "n": "index_pmi_man_cx",
+   "p": [],
+   "r": [],
+   "role": "kind",
+   "s": "财新数据-指数报告-财新中国 PMI-制造业 PMI",
+   "st": "ok"
+  },
+  "index_pmi_ser_cx": {
+   "msg": "",
+   "n": "index_pmi_ser_cx",
+   "p": [],
+   "r": [],
+   "role": "kind",
+   "s": "财新数据-指数报告-财新中国 PMI-服务业 PMI",
+   "st": "ok"
+  },
+  "index_price_cflp": {
+   "msg": "",
+   "n": "index_price_cflp",
+   "p": [
+    "symbol"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "中国公路物流运价指数",
+   "st": "ok"
+  },
+  "index_qli_cx": {
+   "msg": "",
+   "n": "index_qli_cx",
+   "p": [],
+   "r": [],
+   "role": "kind",
+   "s": "财新数据-指数报告-高质量因子",
+   "st": "ok"
+  },
+  "index_realtime_fund_sw": {
+   "msg": "",
+   "n": "index_realtime_fund_sw",
+   "p": [
+    "symbol"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "申万宏源研究-申万指数-指数发布-基金指数-实时行情",
+   "st": "ok"
+  },
+  "index_si_cx": {
+   "msg": "",
+   "n": "index_si_cx",
+   "p": [],
+   "r": [],
+   "role": "kind",
+   "s": "财新数据-指数报告-溢出指数",
+   "st": "ok"
+  },
+  "index_ti_cx": {
+   "msg": "",
+   "n": "index_ti_cx",
+   "p": [],
+   "r": [],
+   "role": "kind",
+   "s": "财新数据-指数报告-科技投入指数",
+   "st": "ok"
+  },
+  "index_us_stock_sina": {
+   "msg": "",
+   "n": "index_us_stock_sina",
+   "p": [
+    "symbol"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "新浪财经-美股指数行情",
+   "st": "ok"
+  },
+  "index_volume_cflp": {
+   "msg": "",
+   "n": "index_volume_cflp",
+   "p": [
+    "symbol"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "中国公路物流运量指数",
+   "st": "ok"
+  },
+  "index_zh_a_hist": {
+   "msg": "",
+   "n": "index_zh_a_hist",
+   "p": [
+    "symbol",
+    "period",
+    "start_date",
+    "end_date"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "东方财富网-中国股票指数-行情数据",
+   "st": "ok"
+  },
+  "index_zh_a_hist_min_em": {
+   "msg": "",
+   "n": "index_zh_a_hist_min_em",
+   "p": [
+    "symbol",
+    "period",
+    "start_date",
+    "end_date"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "东方财富网-指数数据-每日分时行情",
+   "st": "ok"
+  }
+ },
+ "industry": {
+  "stock_board_industry_cons_em": {
+   "msg": "",
+   "n": "stock_board_industry_cons_em",
+   "p": [
+    "symbol"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "东方财富网-沪深板块-行业板块-板块成份",
+   "st": "ok"
+  },
+  "stock_board_industry_hist_em": {
+   "msg": "",
+   "n": "stock_board_industry_hist_em",
+   "p": [
+    "symbol",
+    "start_date",
+    "end_date",
+    "period"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "东方财富网-沪深板块-行业板块-历史行情",
+   "st": "ok"
+  },
+  "stock_board_industry_hist_min_em": {
+   "msg": "",
+   "n": "stock_board_industry_hist_min_em",
+   "p": [
+    "symbol",
+    "period"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "东方财富网-沪深板块-行业板块-分时历史行情",
+   "st": "ok"
+  },
+  "stock_board_industry_index_ths": {
+   "msg": "",
+   "n": "stock_board_industry_index_ths",
+   "p": [
+    "symbol",
+    "start_date",
+    "end_date"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "同花顺-板块-行业板块-指数数据",
+   "st": "ok"
+  },
+  "stock_board_industry_info_ths": {
+   "msg": "",
+   "n": "stock_board_industry_info_ths",
+   "p": [
+    "symbol"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "同花顺-板块-行业板块-板块简介",
+   "st": "ok"
+  },
+  "stock_board_industry_name_em": {
+   "msg": "",
+   "n": "stock_board_industry_name_em",
+   "p": [],
+   "r": [],
+   "role": "kind",
+   "s": "东方财富网-沪深板块-行业板块-名称",
+   "st": "ok"
+  },
+  "stock_board_industry_name_ths": {
+   "msg": "",
+   "n": "stock_board_industry_name_ths",
+   "p": [],
+   "r": [],
+   "role": "kind",
+   "s": "同花顺-板块-行业板块-行业",
+   "st": "ok"
+  },
+  "stock_board_industry_spot_em": {
+   "msg": "",
+   "n": "stock_board_industry_spot_em",
+   "p": [
+    "symbol"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "东方财富网-沪深板块-行业板块-实时行情",
+   "st": "ok"
+  },
+  "stock_board_industry_summary_ths": {
+   "msg": "",
+   "n": "stock_board_industry_summary_ths",
+   "p": [],
+   "r": [],
+   "role": "kind",
+   "s": "同花顺-数据中心-行业板块-同花顺行业一览表",
+   "st": "ok"
+  },
+  "stock_sector_spot": {
+   "msg": "",
+   "n": "stock_sector_spot",
+   "p": [
+    "indicator"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "新浪行业-板块行情",
+   "st": "ok"
+  }
+ },
+ "insider-trade": {
+  "stock_inner_trade_xq": {
+   "msg": "",
+   "n": "stock_inner_trade_xq",
+   "p": [],
+   "r": [],
+   "role": "kind",
+   "s": "雪球-行情中心-沪深股市-内部交易",
+   "st": "ok"
+  }
+ },
+ "ipo": {
+  "stock_allotment_cninfo": {
+   "msg": "",
+   "n": "stock_allotment_cninfo",
+   "p": [
+    "symbol",
+    "start_date",
+    "end_date"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "巨潮资讯-个股-配股实施方案",
+   "st": "ok"
+  },
+  "stock_ipo_benefit_ths": {
+   "msg": "",
+   "n": "stock_ipo_benefit_ths",
+   "p": [],
+   "r": [],
+   "role": "kind",
+   "s": "同花顺-数据中心-新股数据-IPO受益股",
+   "st": "ok"
+  },
+  "stock_ipo_summary_cninfo": {
+   "msg": "",
+   "n": "stock_ipo_summary_cninfo",
+   "p": [
+    "symbol"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "巨潮资讯-个股-上市相关",
+   "st": "ok"
+  },
+  "stock_new_a_spot_em": {
+   "msg": "",
+   "n": "stock_new_a_spot_em",
+   "p": [],
+   "r": [],
+   "role": "kind",
+   "s": "东方财富网-新股-实时行情",
+   "st": "ok"
+  },
+  "stock_new_gh_cninfo": {
+   "msg": "",
+   "n": "stock_new_gh_cninfo",
+   "p": [],
+   "r": [],
+   "role": "kind",
+   "s": "巨潮资讯-数据中心-新股数据-新股过会",
+   "st": "ok"
+  },
+  "stock_new_ipo_cninfo": {
+   "msg": "",
+   "n": "stock_new_ipo_cninfo",
+   "p": [],
+   "r": [],
+   "role": "kind",
+   "s": "巨潮资讯-数据中心-新股数据-新股发行",
+   "st": "ok"
+  },
+  "stock_xgsr_ths": {
+   "msg": "",
+   "n": "stock_xgsr_ths",
+   "p": [],
+   "r": [],
+   "role": "kind",
+   "s": "同花顺-数据中心-新股数据-新股上市首日",
+   "st": "ok"
+  }
+ },
+ "kline": {
+  "stock_bid_ask_em": {
+   "msg": "",
+   "n": "stock_bid_ask_em",
+   "p": [
+    "symbol"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "东方财富-行情报价",
+   "st": "ok"
+  },
+  "stock_individual_spot_xq": {
+   "msg": "",
+   "n": "stock_individual_spot_xq",
+   "p": [
+    "symbol",
+    "token",
+    "timeout"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "雪球-行情中心-个股",
+   "st": "ok"
+  },
+  "stock_intraday_em": {
+   "msg": "",
+   "n": "stock_intraday_em",
+   "p": [
+    "symbol"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "东方财富-分时数据",
+   "st": "ok"
+  },
+  "stock_intraday_sina": {
+   "msg": "",
+   "n": "stock_intraday_sina",
+   "p": [
+    "symbol",
+    "date"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "新浪财经-日内分时数据",
+   "st": "ok"
+  },
+  "stock_zh_a_daily": {
+   "msg": "",
+   "n": "stock_zh_a_daily",
+   "p": [
+    "symbol",
+    "start_date",
+    "end_date",
+    "adjust"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "新浪财经-A 股-个股的历史行情数据，大量抓取容易封 IP",
+   "st": "ok"
+  },
+  "stock_zh_a_hist": {
+   "msg": "",
+   "n": "stock_zh_a_hist",
+   "p": [
+    "symbol",
+    "period",
+    "start_date",
+    "end_date"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "东方财富网-行情首页-沪深京 A 股-每日行情",
+   "st": "ok"
+  },
+  "stock_zh_a_hist_min_em": {
+   "msg": "",
+   "n": "stock_zh_a_hist_min_em",
+   "p": [
+    "symbol",
+    "start_date",
+    "end_date",
+    "period"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "东方财富网-行情首页-沪深京 A 股-每日分时行情",
+   "st": "ok"
+  },
+  "stock_zh_a_hist_pre_min_em": {
+   "msg": "",
+   "n": "stock_zh_a_hist_pre_min_em",
+   "p": [
+    "symbol",
+    "start_time",
+    "end_time"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "东方财富网-行情首页-沪深京 A 股-每日分时行情包含盘前数据",
+   "st": "ok"
+  },
+  "stock_zh_a_hist_tx": {
+   "msg": "",
+   "n": "stock_zh_a_hist_tx",
+   "p": [
+    "symbol",
+    "start_date",
+    "end_date",
+    "adjust"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "腾讯证券-日频-股票历史数据",
+   "st": "ok"
+  },
+  "stock_zh_a_spot": {
+   "msg": "",
+   "n": "stock_zh_a_spot",
+   "p": [],
+   "r": [],
+   "role": "kind",
+   "s": "新浪财经-所有 A 股的实时行情数据；重复运行本函数会被新浪暂时封 IP",
+   "st": "ok"
+  },
+  "stock_zh_a_spot_em": {
+   "msg": "",
+   "n": "stock_zh_a_spot_em",
+   "p": [],
+   "r": [],
+   "role": "kind",
+   "s": "东方财富网-沪深京 A 股-实时行情",
+   "st": "ok"
+  },
+  "stock_zh_a_spot_tx": {
+   "msg": "",
+   "n": "stock_zh_a_spot_tx",
+   "p": [],
+   "r": [],
+   "role": "kind",
+   "s": "腾讯证券-沪深京-实时行情数据",
+   "st": "ok"
+  }
+ },
+ "lhb": {
+  "stock_lhb_detail_em": {
+   "msg": "",
+   "n": "stock_lhb_detail_em",
+   "p": [
+    "start_date",
+    "end_date"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "东方财富网-数据中心-龙虎榜单-龙虎榜详情",
+   "st": "ok"
+  },
+  "stock_lhb_hyyyb_em": {
+   "msg": "",
+   "n": "stock_lhb_hyyyb_em",
+   "p": [
+    "start_date",
+    "end_date"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "东方财富网-数据中心-龙虎榜单-每日活跃营业部",
+   "st": "ok"
+  },
+  "stock_lhb_jgstatistic_em": {
+   "msg": "",
+   "n": "stock_lhb_jgstatistic_em",
+   "p": [
+    "symbol"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "东方财富网-数据中心-龙虎榜单-机构席位追踪",
+   "st": "ok"
+  },
+  "stock_lhb_stock_statistic_em": {
+   "msg": "",
+   "n": "stock_lhb_stock_statistic_em",
+   "p": [
+    "symbol"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "东方财富网-数据中心-龙虎榜单-个股上榜统计",
+   "st": "ok"
+  },
+  "stock_lhb_traderstatistic_em": {
+   "msg": "",
+   "n": "stock_lhb_traderstatistic_em",
+   "p": [
+    "symbol"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "东方财富网-数据中心-龙虎榜单-营业部统计",
+   "st": "ok"
+  },
+  "stock_lhb_yybph_em": {
+   "msg": "",
+   "n": "stock_lhb_yybph_em",
+   "p": [
+    "symbol"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "东方财富网-数据中心-龙虎榜单-营业部排行",
+   "st": "ok"
+  }
+ },
+ "macro": {
+  "fred_md": {
+   "msg": "",
+   "n": "fred_md",
+   "p": [
+    "date"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "The accompanying paper shows that factors extracted from the FRED-MD dataset sha",
+   "st": "ok"
+  },
+  "fred_qd": {
+   "msg": "",
+   "n": "fred_qd",
+   "p": [
+    "date"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "FRED-QD is a quarterly frequency companion to FRED-MD. It is designed to emulate",
+   "st": "ok"
+  },
+  "macro_china_bond_public": {
+   "msg": "",
+   "n": "macro_china_bond_public",
+   "p": [],
+   "r": [],
+   "role": "kind",
+   "s": "中国-债券信息披露-债券发行",
+   "st": "ok"
+  },
+  "macro_china_cpi": {
+   "msg": "",
+   "n": "macro_china_cpi",
+   "p": [],
+   "r": [],
+   "role": "kind",
+   "s": "东方财富-中国居民消费价格指数",
+   "st": "ok"
+  },
+  "macro_china_cpi_monthly": {
+   "msg": "",
+   "n": "macro_china_cpi_monthly",
+   "p": [],
+   "r": [],
+   "role": "kind",
+   "s": "中国月度 CPI 数据，数据区间从 19960201-至今",
+   "st": "ok"
+  },
+  "macro_china_cx_pmi_yearly": {
+   "msg": "",
+   "n": "macro_china_cx_pmi_yearly",
+   "p": [],
+   "r": [],
+   "role": "kind",
+   "s": "中国年度财新 PMI 数据，数据区间从 20120120-至今",
+   "st": "ok"
+  },
+  "macro_china_daily_energy": {
+   "msg": "",
+   "n": "macro_china_daily_energy",
+   "p": [],
+   "r": [],
+   "role": "kind",
+   "s": "中国日度沿海六大电库存数据，数据区间从20160101-至今",
+   "st": "ok"
+  },
+  "macro_china_enterprise_boom_index": {
+   "msg": "",
+   "n": "macro_china_enterprise_boom_index",
+   "p": [],
+   "r": [],
+   "role": "kind",
+   "s": "https://data.eastmoney.com/cjsj/qyjqzs.html",
+   "st": "ok"
+  },
+  "macro_china_fdi": {
+   "msg": "",
+   "n": "macro_china_fdi",
+   "p": [],
+   "r": [],
+   "role": "kind",
+   "s": "东方财富-经济数据一览-中国-外商直接投资数据",
+   "st": "ok"
+  },
+  "macro_china_freight_index": {
+   "msg": "",
+   "n": "macro_china_freight_index",
+   "p": [],
+   "r": [],
+   "role": "kind",
+   "s": "新浪财经-中国宏观经济数据-航贸运价指数",
+   "st": "ok"
+  },
+  "macro_china_fx_reserves_yearly": {
+   "msg": "",
+   "n": "macro_china_fx_reserves_yearly",
+   "p": [],
+   "r": [],
+   "role": "kind",
+   "s": "中国年度外汇储备数据，数据区间从 20140115-至今",
+   "st": "ok"
+  },
+  "macro_china_gdp": {
+   "msg": "",
+   "n": "macro_china_gdp",
+   "p": [],
+   "r": [],
+   "role": "kind",
+   "s": "东方财富-中国国内生产总值",
+   "st": "ok"
+  },
+  "macro_china_gyzjz": {
+   "msg": "",
+   "n": "macro_china_gyzjz",
+   "p": [],
+   "r": [],
+   "role": "kind",
+   "s": "东方财富网-经济数据-工业增加值增长",
+   "st": "ok"
+  },
+  "macro_china_hk_gbp": {
+   "msg": "",
+   "n": "macro_china_hk_gbp",
+   "p": [],
+   "r": [],
+   "role": "kind",
+   "s": "东方财富-经济数据一览-中国香港-香港 GDP",
+   "st": "ok"
+  },
+  "macro_china_hk_trade_diff_ratio": {
+   "msg": "",
+   "n": "macro_china_hk_trade_diff_ratio",
+   "p": [],
+   "r": [],
+   "role": "kind",
+   "s": "东方财富-经济数据一览-中国香港-香港商品贸易差额年率",
+   "st": "ok"
+  },
+  "macro_china_industrial_production_yoy": {
+   "msg": "",
+   "n": "macro_china_industrial_production_yoy",
+   "p": [],
+   "r": [],
+   "role": "kind",
+   "s": "中国规模以上工业增加值年率报告，数据区间从19900301-至今",
+   "st": "ok"
+  },
+  "macro_china_insurance": {
+   "msg": "",
+   "n": "macro_china_insurance",
+   "p": [],
+   "r": [],
+   "role": "kind",
+   "s": "新浪财经-中国宏观经济数据-保险业经营情况",
+   "st": "ok"
+  },
+  "macro_china_insurance_income": {
+   "msg": "",
+   "n": "macro_china_insurance_income",
+   "p": [],
+   "r": [],
+   "role": "kind",
+   "s": "原保险保费收入",
+   "st": "ok"
+  },
+  "macro_china_lpi_index": {
+   "msg": "",
+   "n": "macro_china_lpi_index",
+   "p": [],
+   "r": [],
+   "role": "kind",
+   "s": "物流景气指数",
+   "st": "ok"
+  },
+  "macro_china_lpr": {
+   "msg": "",
+   "n": "macro_china_lpr",
+   "p": [],
+   "r": [],
+   "role": "kind",
+   "s": "LPR品种详细数据",
+   "st": "ok"
+  },
+  "macro_china_money_supply": {
+   "msg": "",
+   "n": "macro_china_money_supply",
+   "p": [],
+   "r": [],
+   "role": "kind",
+   "s": "东方财富-货币供应量",
+   "st": "ok"
+  },
+  "macro_china_national_tax_receipts": {
+   "msg": "",
+   "n": "macro_china_national_tax_receipts",
+   "p": [],
+   "r": [],
+   "role": "kind",
+   "s": "中国-全国税收收入",
+   "st": "ok"
+  },
+  "macro_china_pmi": {
+   "msg": "",
+   "n": "macro_china_pmi",
+   "p": [],
+   "r": [],
+   "role": "kind",
+   "s": "东方财富-中国采购经理人指数",
+   "st": "ok"
+  },
+  "macro_china_postal_telecommunicational": {
+   "msg": "",
+   "n": "macro_china_postal_telecommunicational",
+   "p": [],
+   "r": [],
+   "role": "kind",
+   "s": "新浪财经-中国宏观经济数据-邮电业务基本情况",
+   "st": "ok"
+  },
+  "macro_china_ppi": {
+   "msg": "",
+   "n": "macro_china_ppi",
+   "p": [],
+   "r": [],
+   "role": "kind",
+   "s": "东方财富-中国工业品出厂价格指数",
+   "st": "ok"
+  },
+  "macro_china_qyspjg": {
+   "msg": "",
+   "n": "macro_china_qyspjg",
+   "p": [],
+   "r": [],
+   "role": "kind",
+   "s": "东方财富-经济数据一览-中国-企业商品价格指数",
+   "st": "ok"
+  },
+  "macro_china_retail_price_index": {
+   "msg": "",
+   "n": "macro_china_retail_price_index",
+   "p": [],
+   "r": [],
+   "role": "kind",
+   "s": "商品零售价格指数",
+   "st": "ok"
+  },
+  "macro_china_shibor_all": {
+   "msg": "",
+   "n": "macro_china_shibor_all",
+   "p": [],
+   "r": [],
+   "role": "kind",
+   "s": "上海银行业同业拆借报告，数据区间从20170317-至今",
+   "st": "ok"
+  },
+  "macro_china_shrzgm": {
+   "msg": "",
+   "n": "macro_china_shrzgm",
+   "p": [],
+   "r": [],
+   "role": "kind",
+   "s": "商务数据中心-国内贸易-社会融资规模增量统计",
+   "st": "ok"
+  },
+  "macro_china_society_electricity": {
+   "msg": "",
+   "n": "macro_china_society_electricity",
+   "p": [],
+   "r": [],
+   "role": "kind",
+   "s": "新浪财经-中国宏观经济数据-全社会用电分类情况表",
+   "st": "ok"
+  },
+  "macro_china_society_traffic_volume": {
+   "msg": "",
+   "n": "macro_china_society_traffic_volume",
+   "p": [],
+   "r": [],
+   "role": "kind",
+   "s": "新浪财经-中国宏观经济数据-全社会客货运输量",
+   "st": "ok"
+  },
+  "macro_china_stock_market_cap": {
+   "msg": "",
+   "n": "macro_china_stock_market_cap",
+   "p": [],
+   "r": [],
+   "role": "kind",
+   "s": "东方财富-全国股票交易统计表",
+   "st": "ok"
+  },
+  "macro_china_swap_rate": {
+   "msg": "",
+   "n": "macro_china_swap_rate",
+   "p": [
+    "start_date",
+    "end_date"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "FR007 利率互换曲线历史数据；只能获取近一年的数据",
+   "st": "ok"
+  },
+  "macro_china_urban_unemployment": {
+   "msg": "",
+   "n": "macro_china_urban_unemployment",
+   "p": [],
+   "r": [],
+   "role": "kind",
+   "s": "国家统计局-月度数据-城镇调查失业率",
+   "st": "ok"
+  },
+  "macro_cnbs": {
+   "msg": "",
+   "n": "macro_cnbs",
+   "p": [],
+   "r": [],
+   "role": "kind",
+   "s": "国家金融与发展实验室-中国宏观杠杆率数据",
+   "st": "ok"
+  },
+  "macro_cons_gold": {
+   "msg": "",
+   "n": "macro_cons_gold",
+   "p": [],
+   "r": [],
+   "role": "kind",
+   "s": "全球最大黄金 ETF—SPDR Gold Trust 持仓报告，数据区间从 20041118-至今",
+   "st": "ok"
+  },
+  "macro_cons_opec_month": {
+   "msg": "",
+   "n": "macro_cons_opec_month",
+   "p": [],
+   "r": [],
+   "role": "kind",
+   "s": "欧佩克报告-月度，数据区间从 20170118-至今",
+   "st": "ok"
+  },
+  "macro_cons_silver": {
+   "msg": "",
+   "n": "macro_cons_silver",
+   "p": [],
+   "r": [],
+   "role": "kind",
+   "s": "全球最大白银 ETF—SPDR Gold Trust 持仓报告，数据区间从 20041118-至今",
+   "st": "ok"
+  },
+  "macro_euro_cpi_mom": {
+   "msg": "",
+   "n": "macro_euro_cpi_mom",
+   "p": [],
+   "r": [],
+   "role": "kind",
+   "s": "欧元区 CPI 月率报告，数据区间从 19900301-至今",
+   "st": "ok"
+  },
+  "macro_euro_ppi_mom": {
+   "msg": "",
+   "n": "macro_euro_ppi_mom",
+   "p": [],
+   "r": [],
+   "role": "kind",
+   "s": "欧元区PPI月率报告，数据区间从19810301-至今",
+   "st": "ok"
+  },
+  "macro_fx_sentiment": {
+   "msg": "",
+   "n": "macro_fx_sentiment",
+   "p": [
+    "start_date",
+    "end_date"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "金十数据-外汇-投机情绪报告",
+   "st": "ok"
+  },
+  "macro_global_sox_index": {
+   "msg": "",
+   "n": "macro_global_sox_index",
+   "p": [],
+   "r": [],
+   "role": "kind",
+   "s": "费城半导体指数",
+   "st": "ok"
+  },
+  "macro_shipping_bdi": {
+   "msg": "",
+   "n": "macro_shipping_bdi",
+   "p": [],
+   "r": [],
+   "role": "kind",
+   "s": "波罗的海干散货指数(BDI)",
+   "st": "ok"
+  },
+  "macro_usa_api_crude_stock": {
+   "msg": "",
+   "n": "macro_usa_api_crude_stock",
+   "p": [],
+   "r": [],
+   "role": "kind",
+   "s": "美国 API 原油库存报告，数据区间从 20120328-至今",
+   "st": "ok"
+  },
+  "macro_usa_cb_consumer_confidence": {
+   "msg": "",
+   "n": "macro_usa_cb_consumer_confidence",
+   "p": [],
+   "r": [],
+   "role": "kind",
+   "s": "金十数据中心-经济指标-美国-领先指标-美国谘商会消费者信心指数报告，数据区间从 19700101-至今",
+   "st": "ok"
+  },
+  "macro_usa_cftc_merchant_currency_holding": {
+   "msg": "",
+   "n": "macro_usa_cftc_merchant_currency_holding",
+   "p": [],
+   "r": [],
+   "role": "kind",
+   "s": "美国商品期货交易委员会CFTC外汇类商业持仓报告，数据区间从 19860115-至今",
+   "st": "ok"
+  },
+  "macro_usa_cme_merchant_goods_holding": {
+   "msg": "",
+   "n": "macro_usa_cme_merchant_goods_holding",
+   "p": [],
+   "r": [],
+   "role": "kind",
+   "s": "CME-贵金属，数据区间从 20180405-至今",
+   "st": "ok"
+  },
+  "macro_usa_core_cpi_monthly": {
+   "msg": "",
+   "n": "macro_usa_core_cpi_monthly",
+   "p": [],
+   "r": [],
+   "role": "kind",
+   "s": "美国核心 CPI 月率报告，数据区间从 19700101-至今",
+   "st": "ok"
+  },
+  "macro_usa_core_pce_price": {
+   "msg": "",
+   "n": "macro_usa_core_pce_price",
+   "p": [],
+   "r": [],
+   "role": "kind",
+   "s": "美国核心PCE物价指数年率报告，数据区间从 19700101-至今",
+   "st": "ok"
+  },
+  "macro_usa_cpi_monthly": {
+   "msg": "",
+   "n": "macro_usa_cpi_monthly",
+   "p": [],
+   "r": [],
+   "role": "kind",
+   "s": "美国 CPI 月率报告，数据区间从 19700101-至今",
+   "st": "ok"
+  },
+  "macro_usa_eia_crude_rate": {
+   "msg": "",
+   "n": "macro_usa_eia_crude_rate",
+   "p": [],
+   "r": [],
+   "role": "kind",
+   "s": "美国 EIA 原油库存报告，数据区间从 19950801-至今",
+   "st": "ok"
+  },
+  "macro_usa_exist_home_sales": {
+   "msg": "",
+   "n": "macro_usa_exist_home_sales",
+   "p": [],
+   "r": [],
+   "role": "kind",
+   "s": "美国成屋销售总数年化报告，数据区间从 19700101-至今",
+   "st": "ok"
+  },
+  "macro_usa_house_price_index": {
+   "msg": "",
+   "n": "macro_usa_house_price_index",
+   "p": [],
+   "r": [],
+   "role": "kind",
+   "s": "美国FHFA房价指数月率报告，数据区间从 19910301-至今",
+   "st": "ok"
+  },
+  "macro_usa_house_starts": {
+   "msg": "",
+   "n": "macro_usa_house_starts",
+   "p": [],
+   "r": [],
+   "role": "kind",
+   "s": "美国新屋开工总数年化报告，数据区间从 19700101-至今",
+   "st": "ok"
+  },
+  "macro_usa_import_price": {
+   "msg": "",
+   "n": "macro_usa_import_price",
+   "p": [],
+   "r": [],
+   "role": "kind",
+   "s": "美国进口物价指数报告，数据区间从19890201-至今",
+   "st": "ok"
+  },
+  "macro_usa_industrial_production": {
+   "msg": "",
+   "n": "macro_usa_industrial_production",
+   "p": [],
+   "r": [],
+   "role": "kind",
+   "s": "美国工业产出月率报告，数据区间从 19700101-至今",
+   "st": "ok"
+  },
+  "macro_usa_initial_jobless": {
+   "msg": "",
+   "n": "macro_usa_initial_jobless",
+   "p": [],
+   "r": [],
+   "role": "kind",
+   "s": "美国初请失业金人数报告，数据区间从 19700101-至今",
+   "st": "ok"
+  },
+  "macro_usa_ism_pmi": {
+   "msg": "",
+   "n": "macro_usa_ism_pmi",
+   "p": [],
+   "r": [],
+   "role": "kind",
+   "s": "美国 ISM 制造业 PMI 报告，数据区间从 19700101-至今",
+   "st": "ok"
+  },
+  "macro_usa_michigan_consumer_sentiment": {
+   "msg": "",
+   "n": "macro_usa_michigan_consumer_sentiment",
+   "p": [],
+   "r": [],
+   "role": "kind",
+   "s": "美国密歇根大学消费者信心指数初值报告，数据区间从 19700301-至今",
+   "st": "ok"
+  },
+  "macro_usa_new_home_sales": {
+   "msg": "",
+   "n": "macro_usa_new_home_sales",
+   "p": [],
+   "r": [],
+   "role": "kind",
+   "s": "美国新屋销售总数年化报告，数据区间从 19700101-至今",
+   "st": "ok"
+  },
+  "macro_usa_nfib_small_business": {
+   "msg": "",
+   "n": "macro_usa_nfib_small_business",
+   "p": [],
+   "r": [],
+   "role": "kind",
+   "s": "美国NFIB小型企业信心指数报告，数据区间从 19750201-至今",
+   "st": "ok"
+  },
+  "macro_usa_non_farm": {
+   "msg": "",
+   "n": "macro_usa_non_farm",
+   "p": [],
+   "r": [],
+   "role": "kind",
+   "s": "美国非农就业人数报告，数据区间从19700102-至今",
+   "st": "ok"
+  },
+  "macro_usa_personal_spending": {
+   "msg": "",
+   "n": "macro_usa_personal_spending",
+   "p": [],
+   "r": [],
+   "role": "kind",
+   "s": "美国个人支出月率报告，数据区间从19700101-至今",
+   "st": "ok"
+  },
+  "macro_usa_trade_balance": {
+   "msg": "",
+   "n": "macro_usa_trade_balance",
+   "p": [],
+   "r": [],
+   "role": "kind",
+   "s": "美国贸易帐报告，数据区间从 19700101-至今",
+   "st": "ok"
+  },
+  "macro_usa_unemployment_rate": {
+   "msg": "",
+   "n": "macro_usa_unemployment_rate",
+   "p": [],
+   "r": [],
+   "role": "kind",
+   "s": "美国失业率报告，数据区间从 19700101-至今",
+   "st": "ok"
+  }
+ },
+ "misc": {
+  "air_city_table": {
+   "msg": "",
+   "n": "air_city_table",
+   "p": [],
+   "r": [],
+   "role": "kind",
+   "s": "真气网-空气质量历史数据查询-全部城市列表",
+   "st": "ok"
+  },
+  "air_quality_hist": {
+   "msg": "",
+   "n": "air_quality_hist",
+   "p": [
+    "city",
+    "period",
+    "start_date",
+    "end_date"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "真气网-空气历史数据",
+   "st": "ok"
+  },
+  "air_quality_rank": {
+   "msg": "",
+   "n": "air_quality_rank",
+   "p": [
+    "date"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "真气网-168 城市 AQI 排行榜",
+   "st": "ok"
+  },
+  "air_quality_watch_point": {
+   "msg": "",
+   "n": "air_quality_watch_point",
+   "p": [
+    "city",
+    "start_date",
+    "end_date"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "真气网-监测点空气质量-细化到具体城市的每个监测点",
+   "st": "ok"
+  },
+  "article_oman_rv": {
+   "msg": "",
+   "n": "article_oman_rv",
+   "p": [
+    "symbol",
+    "index"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "Oxford-Man Institute of Quantitative Finance Realized Library 的数据",
+   "st": "ok"
+  },
+  "article_oman_rv_short": {
+   "msg": "",
+   "n": "article_oman_rv_short",
+   "p": [
+    "symbol"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "Oxford-Man Institute of Quantitative Finance Realized Library 的数据",
+   "st": "ok"
+  },
+  "article_rlab_rv": {
+   "msg": "",
+   "n": "article_rlab_rv",
+   "p": [
+    "symbol"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "修大成主页-Risk Lab-Realized Volatility",
+   "st": "ok"
+  },
+  "bank_fjcf_table_detail": {
+   "msg": "",
+   "n": "bank_fjcf_table_detail",
+   "p": [
+    "page",
+    "item",
+    "begin"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "获取 首页-政务信息-行政处罚-银保监分局本级-XXXX行政处罚信息公开表 数据",
+   "st": "ok"
+  },
+  "business_value_artist": {
+   "msg": "",
+   "n": "business_value_artist",
+   "p": [],
+   "r": [],
+   "role": "kind",
+   "s": "艺恩-艺人-艺人商业价值",
+   "st": "ok"
+  },
+  "car_market_cate_cpca": {
+   "msg": "",
+   "n": "car_market_cate_cpca",
+   "p": [
+    "symbol",
+    "indicator"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "乘联会-统计数据-车型大类",
+   "st": "ok"
+  },
+  "car_sale_rank_gasgoo": {
+   "msg": "",
+   "n": "car_sale_rank_gasgoo",
+   "p": [
+    "symbol",
+    "date"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "盖世汽车-汽车行业制造企业数据库-销量数据",
+   "st": "ok"
+  },
+  "energy_carbon_bj": {
+   "msg": "",
+   "n": "energy_carbon_bj",
+   "p": [],
+   "r": [],
+   "role": "kind",
+   "s": "北京市碳排放权电子交易平台-北京市碳排放权公开交易行情",
+   "st": "ok"
+  },
+  "energy_carbon_domestic": {
+   "msg": "",
+   "n": "energy_carbon_domestic",
+   "p": [
+    "symbol"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "碳交易网-行情信息",
+   "st": "ok"
+  },
+  "energy_carbon_eu": {
+   "msg": "",
+   "n": "energy_carbon_eu",
+   "p": [],
+   "r": [],
+   "role": "kind",
+   "s": "深圳碳排放交易所-国际碳情",
+   "st": "ok"
+  },
+  "energy_carbon_gz": {
+   "msg": "",
+   "n": "energy_carbon_gz",
+   "p": [],
+   "r": [],
+   "role": "kind",
+   "s": "广州碳排放权交易中心-行情信息",
+   "st": "ok"
+  },
+  "energy_carbon_sz": {
+   "msg": "",
+   "n": "energy_carbon_sz",
+   "p": [],
+   "r": [],
+   "role": "kind",
+   "s": "深圳碳排放交易所-国内碳情",
+   "st": "ok"
+  },
+  "get_rank_sum": {
+   "msg": "",
+   "n": "get_rank_sum",
+   "p": [
+    "date",
+    "vars_list"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "采集五个期货交易所前5、前10、前15、前20会员持仓排名数据",
+   "st": "ok"
+  },
+  "get_rank_sum_daily": {
+   "msg": "",
+   "n": "get_rank_sum_daily",
+   "p": [
+    "start_day",
+    "end_day",
+    "vars_list"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "采集四个期货交易所前 5、前 10、前 15、前 20 会员持仓排名数据",
+   "st": "ok"
+  },
+  "get_roll_yield_bar": {
+   "msg": "",
+   "n": "get_roll_yield_bar",
+   "p": [
+    "type_method",
+    "var",
+    "date",
+    "start_day"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "展期收益率",
+   "st": "ok"
+  },
+  "get_us_stock_name": {
+   "msg": "",
+   "n": "get_us_stock_name",
+   "p": [],
+   "r": [],
+   "role": "kind",
+   "s": "u.s. stock's english name, chinese name and symbol",
+   "st": "ok"
+  },
+  "migration_area_baidu": {
+   "msg": "",
+   "n": "migration_area_baidu",
+   "p": [
+    "area",
+    "indicator",
+    "date"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "百度地图慧眼-百度迁徙-XXX迁入地详情",
+   "st": "ok"
+  },
+  "movie_boxoffice_cinema_daily": {
+   "msg": "",
+   "n": "movie_boxoffice_cinema_daily",
+   "p": [
+    "date"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "电影票房-影院票房-日票房排行",
+   "st": "ok"
+  },
+  "movie_boxoffice_cinema_weekly": {
+   "msg": "",
+   "n": "movie_boxoffice_cinema_weekly",
+   "p": [
+    "date"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "电影票房-影院票房-周票房排行",
+   "st": "ok"
+  },
+  "movie_boxoffice_daily": {
+   "msg": "",
+   "n": "movie_boxoffice_daily",
+   "p": [
+    "date"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "电影票房-单日票房",
+   "st": "ok"
+  },
+  "movie_boxoffice_weekly": {
+   "msg": "",
+   "n": "movie_boxoffice_weekly",
+   "p": [
+    "date"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "电影票房-单周票房",
+   "st": "ok"
+  },
+  "nlp_ownthink": {
+   "msg": "",
+   "n": "nlp_ownthink",
+   "p": [
+    "word",
+    "indicator"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "Knowledge Graph interface for financial research",
+   "st": "ok"
+  },
+  "online_value_artist": {
+   "msg": "",
+   "n": "online_value_artist",
+   "p": [],
+   "r": [],
+   "role": "kind",
+   "s": "艺恩-艺人-艺人流量价值",
+   "st": "ok"
+  },
+  "rv_from_stock_zh_a_hist_min_em": {
+   "msg": "",
+   "n": "rv_from_stock_zh_a_hist_min_em",
+   "p": [
+    "symbol",
+    "start_date",
+    "end_date",
+    "period"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "从东方财富网获取股票的分钟级历史行情数据，并进行数据清洗和格式化为计算 yz 已实现波动率所需的数据格式",
+   "st": "ok"
+  },
+  "sunrise_daily": {
+   "msg": "",
+   "n": "sunrise_daily",
+   "p": [
+    "date",
+    "city"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "每日日出日落数据",
+   "st": "ok"
+  },
+  "sunrise_monthly": {
+   "msg": "",
+   "n": "sunrise_monthly",
+   "p": [
+    "date",
+    "city"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "每个指定 date 所在月份的每日日出日落数据，如果当前月份未到月底，则以预测值填充",
+   "st": "ok"
+  },
+  "tool_trade_date_hist_sina": {
+   "msg": "",
+   "n": "tool_trade_date_hist_sina",
+   "p": [],
+   "r": [],
+   "role": "kind",
+   "s": "新浪财经-交易日历-历史数据",
+   "st": "ok"
+  },
+  "video_tv": {
+   "msg": "",
+   "n": "video_tv",
+   "p": [],
+   "r": [],
+   "role": "kind",
+   "s": "艺恩-视频放映-电视剧集",
+   "st": "ok"
+  },
+  "video_variety_show": {
+   "msg": "",
+   "n": "video_variety_show",
+   "p": [],
+   "r": [],
+   "role": "kind",
+   "s": "艺恩-视频放映-综艺节目",
+   "st": "ok"
+  },
+  "xincaifu_rank": {
+   "msg": "",
+   "n": "xincaifu_rank",
+   "p": [
+    "year"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "新财富 500 人富豪榜",
+   "st": "ok"
+  }
+ },
+ "news": {
+  "stock_news_em": {
+   "msg": "",
+   "n": "stock_news_em",
+   "p": [
+    "symbol"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "东方财富-个股新闻-最近 100 条新闻",
+   "st": "ok"
+  }
+ },
+ "notice": {
+  "stock_notice_report": {
+   "msg": "",
+   "n": "stock_notice_report",
+   "p": [
+    "symbol",
+    "date"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "东方财富网-数据中心-公告大全-沪深京 A 股公告",
+   "st": "ok"
+  }
+ },
+ "option": {
+  "option_comm_info": {
+   "msg": "",
+   "n": "option_comm_info",
+   "p": [
+    "symbol"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "九期网-商品期权手续费",
+   "st": "ok"
+  },
+  "option_comm_symbol": {
+   "msg": "",
+   "n": "option_comm_symbol",
+   "p": [],
+   "r": [],
+   "role": "kind",
+   "s": "",
+   "st": "ok"
+  },
+  "option_commodity_contract_sina": {
+   "msg": "",
+   "n": "option_commodity_contract_sina",
+   "p": [
+    "symbol"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "当前可以查询的期权品种的合约日期",
+   "st": "ok"
+  },
+  "option_current_em": {
+   "msg": "",
+   "n": "option_current_em",
+   "p": [],
+   "r": [],
+   "role": "kind",
+   "s": "东方财富网-行情中心-期权市场",
+   "st": "ok"
+  },
+  "option_daily_stats_sse": {
+   "msg": "",
+   "n": "option_daily_stats_sse",
+   "p": [
+    "date"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "上海证券交易所-产品-股票期权-每日统计",
+   "st": "ok"
+  },
+  "option_hist_dce": {
+   "msg": "",
+   "n": "option_hist_dce",
+   "p": [
+    "symbol",
+    "trade_date"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "大连商品交易所-期权-日频行情数据",
+   "st": "ok"
+  },
+  "option_hist_gfex": {
+   "msg": "",
+   "n": "option_hist_gfex",
+   "p": [
+    "symbol",
+    "trade_date"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "广州期货交易所-日频率-量价数据",
+   "st": "ok"
+  },
+  "option_lhb_em": {
+   "msg": "",
+   "n": "option_lhb_em",
+   "p": [
+    "symbol",
+    "indicator",
+    "trade_date"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "东方财富网-数据中心-期货期权-期权龙虎榜单",
+   "st": "ok"
+  },
+  "option_margin": {
+   "msg": "",
+   "n": "option_margin",
+   "p": [
+    "symbol"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "获取商品期权保证金",
+   "st": "ok"
+  },
+  "option_margin_symbol": {
+   "msg": "",
+   "n": "option_margin_symbol",
+   "p": [],
+   "r": [],
+   "role": "kind",
+   "s": "获取商品期权品种代码和名称",
+   "st": "ok"
+  },
+  "option_minute_em": {
+   "msg": "",
+   "n": "option_minute_em",
+   "p": [
+    "symbol"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "东方财富网-行情中心-期权市场-分时行情",
+   "st": "ok"
+  },
+  "option_premium_analysis_em": {
+   "msg": "",
+   "n": "option_premium_analysis_em",
+   "p": [],
+   "r": [],
+   "role": "kind",
+   "s": "东方财富网-数据中心-特色数据-期权折溢价",
+   "st": "ok"
+  },
+  "option_risk_analysis_em": {
+   "msg": "",
+   "n": "option_risk_analysis_em",
+   "p": [],
+   "r": [],
+   "role": "kind",
+   "s": "东方财富网-数据中心-特色数据-期权风险分析",
+   "st": "ok"
+  },
+  "option_risk_indicator_sse": {
+   "msg": "",
+   "n": "option_risk_indicator_sse",
+   "p": [
+    "date"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "上海证券交易所-产品-股票期权-期权风险指标",
+   "st": "ok"
+  },
+  "option_sse_codes_sina": {
+   "msg": "",
+   "n": "option_sse_codes_sina",
+   "p": [
+    "symbol",
+    "trade_date",
+    "underlying"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "上海证券交易所-所有看涨和看跌合约的代码",
+   "st": "ok"
+  },
+  "option_value_analysis_em": {
+   "msg": "",
+   "n": "option_value_analysis_em",
+   "p": [],
+   "r": [],
+   "role": "kind",
+   "s": "东方财富网-数据中心-特色数据-期权价值分析",
+   "st": "ok"
+  },
+  "option_vol_gfex": {
+   "msg": "",
+   "n": "option_vol_gfex",
+   "p": [
+    "symbol",
+    "trade_date"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "广州期货交易所-日频率-合约隐含波动率",
+   "st": "ok"
+  }
+ },
+ "pledge": {
+  "stock_gpzy_distribute_statistics_bank_em": {
+   "msg": "",
+   "n": "stock_gpzy_distribute_statistics_bank_em",
+   "p": [],
+   "r": [],
+   "role": "kind",
+   "s": "东方财富网-数据中心-特色数据-股权质押-质押机构分布统计-银行",
+   "st": "ok"
+  },
+  "stock_gpzy_distribute_statistics_company_em": {
+   "msg": "",
+   "n": "stock_gpzy_distribute_statistics_company_em",
+   "p": [],
+   "r": [],
+   "role": "kind",
+   "s": "东方财富网-数据中心-特色数据-股权质押-质押机构分布统计-证券公司",
+   "st": "ok"
+  },
+  "stock_gpzy_pledge_ratio_detail_em": {
+   "msg": "",
+   "n": "stock_gpzy_pledge_ratio_detail_em",
+   "p": [],
+   "r": [],
+   "role": "kind",
+   "s": "",
+   "st": "ok"
+  },
+  "stock_gpzy_pledge_ratio_em": {
+   "msg": "",
+   "n": "stock_gpzy_pledge_ratio_em",
+   "p": [
+    "date"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "东方财富网-数据中心-特色数据-股权质押-上市公司质押比例",
+   "st": "ok"
+  },
+  "stock_gpzy_profile_em": {
+   "msg": "",
+   "n": "stock_gpzy_profile_em",
+   "p": [],
+   "r": [],
+   "role": "kind",
+   "s": "东方财富网-数据中心-特色数据-股权质押-股权质押市场概况",
+   "st": "ok"
+  }
+ },
+ "pool": {
+  "stock_qbzf_em": {
+   "msg": "",
+   "n": "stock_qbzf_em",
+   "p": [],
+   "r": [],
+   "role": "kind",
+   "s": "东方财富网-数据中心-新股数据-增发-全部增发",
+   "st": "ok"
+  },
+  "stock_zt_pool_dtgc_em": {
+   "msg": "",
+   "n": "stock_zt_pool_dtgc_em",
+   "p": [
+    "date"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "东方财富网-行情中心-涨停板行情-跌停股池",
+   "st": "ok"
+  },
+  "stock_zt_pool_em": {
+   "msg": "",
+   "n": "stock_zt_pool_em",
+   "p": [
+    "date"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "东方财富网-行情中心-涨停板行情-涨停股池",
+   "st": "ok"
+  },
+  "stock_zt_pool_previous_em": {
+   "msg": "",
+   "n": "stock_zt_pool_previous_em",
+   "p": [
+    "date"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "东方财富网-行情中心-涨停板行情-昨日涨停股池",
+   "st": "ok"
+  },
+  "stock_zt_pool_strong_em": {
+   "msg": "",
+   "n": "stock_zt_pool_strong_em",
+   "p": [
+    "date"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "东方财富网-行情中心-涨停板行情-强势股池",
+   "st": "ok"
+  },
+  "stock_zt_pool_sub_new_em": {
+   "msg": "",
+   "n": "stock_zt_pool_sub_new_em",
+   "p": [
+    "date"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "东方财富网-行情中心-涨停板行情-次新股池",
+   "st": "ok"
+  },
+  "stock_zt_pool_zbgc_em": {
+   "msg": "",
+   "n": "stock_zt_pool_zbgc_em",
+   "p": [
+    "date"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "东方财富网-行情中心-涨停板行情-炸板股池",
+   "st": "ok"
+  }
+ },
+ "quote": {
+  "stock_a_all_pb": {
+   "msg": "",
+   "n": "stock_a_all_pb",
+   "p": [],
+   "r": [],
+   "role": "kind",
+   "s": "全部A股-等权重市净率、中位数市净率",
+   "st": "ok"
+  },
+  "stock_a_high_low_statistics": {
+   "msg": "",
+   "n": "stock_a_high_low_statistics",
+   "p": [
+    "symbol"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "乐咕乐股-创新高、新低的股票数量",
+   "st": "ok"
+  },
+  "stock_a_ttm_lyr": {
+   "msg": "",
+   "n": "stock_a_ttm_lyr",
+   "p": [],
+   "r": [],
+   "role": "kind",
+   "s": "全部 A 股-等权重市盈率、中位数市盈率",
+   "st": "ok"
+  },
+  "stock_bj_a_spot_em": {
+   "msg": "",
+   "n": "stock_bj_a_spot_em",
+   "p": [],
+   "r": [],
+   "role": "kind",
+   "s": "东方财富网-京 A 股-实时行情",
+   "st": "ok"
+  },
+  "stock_cg_equity_mortgage_cninfo": {
+   "msg": "",
+   "n": "stock_cg_equity_mortgage_cninfo",
+   "p": [
+    "date"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "巨潮资讯-数据中心-专题统计-公司治理-股权质押",
+   "st": "ok"
+  },
+  "stock_cg_guarantee_cninfo": {
+   "msg": "",
+   "n": "stock_cg_guarantee_cninfo",
+   "p": [
+    "symbol",
+    "start_date",
+    "end_date"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "巨潮资讯-数据中心-专题统计-公司治理-对外担保",
+   "st": "ok"
+  },
+  "stock_cg_lawsuit_cninfo": {
+   "msg": "",
+   "n": "stock_cg_lawsuit_cninfo",
+   "p": [
+    "symbol",
+    "start_date",
+    "end_date"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "巨潮资讯-数据中心-专题统计-公司治理-公司诉讼",
+   "st": "ok"
+  },
+  "stock_changes_em": {
+   "msg": "",
+   "n": "stock_changes_em",
+   "p": [
+    "symbol"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "东方财富-行情中心-盘口异动",
+   "st": "ok"
+  },
+  "stock_classify_sina": {
+   "msg": "",
+   "n": "stock_classify_sina",
+   "p": [
+    "symbol"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "按 symbol 分类后的股票",
+   "st": "ok"
+  },
+  "stock_cy_a_spot_em": {
+   "msg": "",
+   "n": "stock_cy_a_spot_em",
+   "p": [],
+   "r": [],
+   "role": "kind",
+   "s": "东方财富网-创业板-实时行情",
+   "st": "ok"
+  },
+  "stock_cyq_em": {
+   "msg": "",
+   "n": "stock_cyq_em",
+   "p": [
+    "symbol",
+    "adjust"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "东方财富网-概念板-行情中心-日K-筹码分布",
+   "st": "ok"
+  },
+  "stock_dzjy_mrmx": {
+   "msg": "",
+   "n": "stock_dzjy_mrmx",
+   "p": [
+    "symbol",
+    "start_date",
+    "end_date"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "东方财富网-数据中心-大宗交易-每日明细",
+   "st": "ok"
+  },
+  "stock_esg_hz_sina": {
+   "msg": "",
+   "n": "stock_esg_hz_sina",
+   "p": [],
+   "r": [],
+   "role": "kind",
+   "s": "新浪财经-ESG评级中心-ESG评级-华证指数",
+   "st": "ok"
+  },
+  "stock_esg_msci_sina": {
+   "msg": "",
+   "n": "stock_esg_msci_sina",
+   "p": [],
+   "r": [],
+   "role": "kind",
+   "s": "新浪财经-ESG评级中心-ESG评级-MSCI",
+   "st": "ok"
+  },
+  "stock_esg_rate_sina": {
+   "msg": "",
+   "n": "stock_esg_rate_sina",
+   "p": [],
+   "r": [],
+   "role": "kind",
+   "s": "新浪财经-ESG评级中心-ESG评级-ESG评级数据",
+   "st": "ok"
+  },
+  "stock_esg_zd_sina": {
+   "msg": "",
+   "n": "stock_esg_zd_sina",
+   "p": [],
+   "r": [],
+   "role": "kind",
+   "s": "新浪财经-ESG评级中心-ESG评级-秩鼎",
+   "st": "ok"
+  },
+  "stock_index_pb_lg": {
+   "msg": "",
+   "n": "stock_index_pb_lg",
+   "p": [
+    "symbol"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "乐咕乐股-指数市净率",
+   "st": "ok"
+  },
+  "stock_index_pe_lg": {
+   "msg": "",
+   "n": "stock_index_pe_lg",
+   "p": [
+    "symbol"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "乐咕乐股-指数市盈率",
+   "st": "ok"
+  },
+  "stock_individual_basic_info_hk_xq": {
+   "msg": "",
+   "n": "stock_individual_basic_info_hk_xq",
+   "p": [
+    "symbol",
+    "token",
+    "timeout"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "雪球-个股-公司概况-公司简介",
+   "st": "ok"
+  },
+  "stock_individual_basic_info_us_xq": {
+   "msg": "",
+   "n": "stock_individual_basic_info_us_xq",
+   "p": [
+    "symbol",
+    "token",
+    "timeout"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "雪球-个股-公司概况-公司简介",
+   "st": "ok"
+  },
+  "stock_individual_basic_info_xq": {
+   "msg": "",
+   "n": "stock_individual_basic_info_xq",
+   "p": [
+    "symbol",
+    "token",
+    "timeout"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "雪球-个股-公司概况-公司简介",
+   "st": "ok"
+  },
+  "stock_individual_info_em": {
+   "msg": "",
+   "n": "stock_individual_info_em",
+   "p": [
+    "symbol",
+    "timeout"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "东方财富-个股-股票信息",
+   "st": "ok"
+  },
+  "stock_industry_category_cninfo": {
+   "msg": "",
+   "n": "stock_industry_category_cninfo",
+   "p": [
+    "symbol"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "巨潮资讯-行业分类数据",
+   "st": "ok"
+  },
+  "stock_industry_change_cninfo": {
+   "msg": "",
+   "n": "stock_industry_change_cninfo",
+   "p": [
+    "symbol",
+    "start_date",
+    "end_date"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "巨潮资讯-上市公司行业归属的变动情况",
+   "st": "ok"
+  },
+  "stock_industry_clf_hist_sw": {
+   "msg": "",
+   "n": "stock_industry_clf_hist_sw",
+   "p": [],
+   "r": [],
+   "role": "kind",
+   "s": "申万宏源研究-行业分类-全部行业分类",
+   "st": "ok"
+  },
+  "stock_industry_pe_ratio_cninfo": {
+   "msg": "",
+   "n": "stock_industry_pe_ratio_cninfo",
+   "p": [
+    "symbol",
+    "date"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "巨潮资讯-数据中心-行业分析-行业市盈率",
+   "st": "ok"
+  },
+  "stock_info_a_code_name": {
+   "msg": "",
+   "n": "stock_info_a_code_name",
+   "p": [],
+   "r": [],
+   "role": "kind",
+   "s": "沪深京 A 股列表",
+   "st": "ok"
+  },
+  "stock_info_bj_name_code": {
+   "msg": "",
+   "n": "stock_info_bj_name_code",
+   "p": [],
+   "r": [],
+   "role": "kind",
+   "s": "北京证券交易所-股票列表",
+   "st": "ok"
+  },
+  "stock_info_sh_name_code": {
+   "msg": "",
+   "n": "stock_info_sh_name_code",
+   "p": [
+    "symbol"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "上海证券交易所-股票列表",
+   "st": "ok"
+  },
+  "stock_info_sz_name_code": {
+   "msg": "",
+   "n": "stock_info_sz_name_code",
+   "p": [
+    "symbol"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "深圳证券交易所-股票列表",
+   "st": "ok"
+  },
+  "stock_jgdy_detail_em": {
+   "msg": "",
+   "n": "stock_jgdy_detail_em",
+   "p": [
+    "date"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "东方财富网-数据中心-特色数据-机构调研-机构调研详细",
+   "st": "ok"
+  },
+  "stock_jgdy_tj_em": {
+   "msg": "",
+   "n": "stock_jgdy_tj_em",
+   "p": [
+    "date"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "东方财富网-数据中心-特色数据-机构调研-机构调研统计",
+   "st": "ok"
+  },
+  "stock_kc_a_spot_em": {
+   "msg": "",
+   "n": "stock_kc_a_spot_em",
+   "p": [],
+   "r": [],
+   "role": "kind",
+   "s": "东方财富网-科创板-实时行情",
+   "st": "ok"
+  },
+  "stock_margin_account_info": {
+   "msg": "",
+   "n": "stock_margin_account_info",
+   "p": [],
+   "r": [],
+   "role": "kind",
+   "s": "东方财富网-数据中心-融资融券-融资融券账户统计-两融账户信息",
+   "st": "ok"
+  },
+  "stock_margin_detail_bse": {
+   "msg": "",
+   "n": "stock_margin_detail_bse",
+   "p": [
+    "date"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "北京证券交易所-融资融券数据-融资融券交易明细。",
+   "st": "ok"
+  },
+  "stock_margin_detail_sse": {
+   "msg": "",
+   "n": "stock_margin_detail_sse",
+   "p": [
+    "date"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "上海证券交易所-融资融券数据-融资融券明细",
+   "st": "ok"
+  },
+  "stock_margin_detail_szse": {
+   "msg": "",
+   "n": "stock_margin_detail_szse",
+   "p": [
+    "date"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "深证证券交易所-融资融券数据-融资融券交易明细",
+   "st": "ok"
+  },
+  "stock_margin_underlying_info_bse": {
+   "msg": "",
+   "n": "stock_margin_underlying_info_bse",
+   "p": [
+    "date"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "北京证券交易所-融资融券数据-标的证券信息。",
+   "st": "ok"
+  },
+  "stock_market_activity_legu": {
+   "msg": "",
+   "n": "stock_market_activity_legu",
+   "p": [],
+   "r": [],
+   "role": "kind",
+   "s": "乐咕乐股网-赚钱效应分析",
+   "st": "ok"
+  },
+  "stock_market_pb_lg": {
+   "msg": "",
+   "n": "stock_market_pb_lg",
+   "p": [
+    "symbol"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "乐咕乐股-主板市净率",
+   "st": "ok"
+  },
+  "stock_market_pe_lg": {
+   "msg": "",
+   "n": "stock_market_pe_lg",
+   "p": [
+    "symbol"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "乐咕乐股-主板市盈率",
+   "st": "ok"
+  },
+  "stock_profile_cninfo": {
+   "msg": "",
+   "n": "stock_profile_cninfo",
+   "p": [
+    "symbol"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "巨潮资讯-个股-公司概况",
+   "st": "ok"
+  },
+  "stock_sh_a_spot_em": {
+   "msg": "",
+   "n": "stock_sh_a_spot_em",
+   "p": [],
+   "r": [],
+   "role": "kind",
+   "s": "东方财富网-沪 A 股-实时行情",
+   "st": "ok"
+  },
+  "stock_share_hold_change_szse": {
+   "msg": "",
+   "n": "stock_share_hold_change_szse",
+   "p": [
+    "symbol"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "深圳证券交易所-信息披露-监管信息公开-董监高人员股份变动",
+   "st": "ok"
+  },
+  "stock_sns_sseinfo": {
+   "msg": "",
+   "n": "stock_sns_sseinfo",
+   "p": [
+    "symbol"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "上证e互动-提问与回答",
+   "st": "ok"
+  },
+  "stock_staq_net_stop": {
+   "msg": "",
+   "n": "stock_staq_net_stop",
+   "p": [],
+   "r": [],
+   "role": "kind",
+   "s": "东方财富网-行情中心-沪深个股-两网及退市",
+   "st": "ok"
+  },
+  "stock_sz_a_spot_em": {
+   "msg": "",
+   "n": "stock_sz_a_spot_em",
+   "p": [],
+   "r": [],
+   "role": "kind",
+   "s": "东方财富网-深 A 股-实时行情",
+   "st": "ok"
+  },
+  "stock_zdhtmx_em": {
+   "msg": "",
+   "n": "stock_zdhtmx_em",
+   "p": [
+    "start_date",
+    "end_date"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "东方财富网-数据中心-重大合同-重大合同明细",
+   "st": "ok"
+  },
+  "stock_zh_a_cdr_daily": {
+   "msg": "",
+   "n": "stock_zh_a_cdr_daily",
+   "p": [
+    "symbol",
+    "start_date",
+    "end_date"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "新浪财经-A股-CDR个股的历史行情数据，大量抓取容易封 IP",
+   "st": "ok"
+  },
+  "stock_zh_a_gbjg_em": {
+   "msg": "",
+   "n": "stock_zh_a_gbjg_em",
+   "p": [
+    "symbol"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "东方财富-A股数据-股本结构",
+   "st": "ok"
+  },
+  "stock_zh_a_gdhs_detail_em": {
+   "msg": "",
+   "n": "stock_zh_a_gdhs_detail_em",
+   "p": [
+    "symbol"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "东方财富网-数据中心-特色数据-股东户数详情",
+   "st": "ok"
+  },
+  "stock_zh_a_new_em": {
+   "msg": "",
+   "n": "stock_zh_a_new_em",
+   "p": [],
+   "r": [],
+   "role": "kind",
+   "s": "东方财富网-行情中心-沪深个股-新股",
+   "st": "ok"
+  },
+  "stock_zh_a_st_em": {
+   "msg": "",
+   "n": "stock_zh_a_st_em",
+   "p": [],
+   "r": [],
+   "role": "kind",
+   "s": "东方财富网-行情中心-沪深个股-风险警示板",
+   "st": "ok"
+  },
+  "stock_zh_a_stop_em": {
+   "msg": "",
+   "n": "stock_zh_a_stop_em",
+   "p": [],
+   "r": [],
+   "role": "kind",
+   "s": "东方财富网-行情中心-沪深个股-两网及退市",
+   "st": "ok"
+  },
+  "stock_zh_ab_comparison_em": {
+   "msg": "",
+   "n": "stock_zh_ab_comparison_em",
+   "p": [],
+   "r": [],
+   "role": "kind",
+   "s": "东方财富网-行情中心-沪深京个股-AB股比价-全部AB股比价",
+   "st": "ok"
+  },
+  "stock_zh_index_daily": {
+   "msg": "",
+   "n": "stock_zh_index_daily",
+   "p": [
+    "symbol"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "新浪财经-指数-历史行情数据，大量抓取容易封 IP",
+   "st": "ok"
+  },
+  "stock_zh_index_daily_em": {
+   "msg": "",
+   "n": "stock_zh_index_daily_em",
+   "p": [
+    "symbol",
+    "start_date",
+    "end_date"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "东方财富网-股票指数数据",
+   "st": "ok"
+  },
+  "stock_zh_index_spot_em": {
+   "msg": "",
+   "n": "stock_zh_index_spot_em",
+   "p": [
+    "symbol"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "东方财富网-行情中心-沪深京指数",
+   "st": "ok"
+  },
+  "stock_zh_index_value_csindex": {
+   "msg": "",
+   "n": "stock_zh_index_value_csindex",
+   "p": [
+    "symbol"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "中证指数-指数估值数据",
+   "st": "ok"
+  },
+  "stock_zh_kcb_report_em": {
+   "msg": "",
+   "n": "stock_zh_kcb_report_em",
+   "p": [
+    "from_page",
+    "to_page"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "科创板报告内容",
+   "st": "ok"
+  }
+ },
+ "screen": {
+  "stock_rank_cxd_ths": {
+   "msg": "",
+   "n": "stock_rank_cxd_ths",
+   "p": [
+    "symbol"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "同花顺-数据中心-技术选股-创新低",
+   "st": "ok"
+  },
+  "stock_rank_cxfl_ths": {
+   "msg": "",
+   "n": "stock_rank_cxfl_ths",
+   "p": [],
+   "r": [],
+   "role": "kind",
+   "s": "同花顺-数据中心-技术选股-持续放量",
+   "st": "ok"
+  },
+  "stock_rank_cxg_ths": {
+   "msg": "",
+   "n": "stock_rank_cxg_ths",
+   "p": [
+    "symbol"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "同花顺-数据中心-技术选股-创新高",
+   "st": "ok"
+  },
+  "stock_rank_cxsl_ths": {
+   "msg": "",
+   "n": "stock_rank_cxsl_ths",
+   "p": [],
+   "r": [],
+   "role": "kind",
+   "s": "同花顺-数据中心-技术选股-持续缩量",
+   "st": "ok"
+  },
+  "stock_rank_forecast_cninfo": {
+   "msg": "",
+   "n": "stock_rank_forecast_cninfo",
+   "p": [
+    "date"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "巨潮资讯-数据中心-评级预测-投资评级",
+   "st": "ok"
+  },
+  "stock_rank_ljqd_ths": {
+   "msg": "",
+   "n": "stock_rank_ljqd_ths",
+   "p": [],
+   "r": [],
+   "role": "kind",
+   "s": "同花顺-数据中心-技术选股-量价齐跌",
+   "st": "ok"
+  },
+  "stock_rank_ljqs_ths": {
+   "msg": "",
+   "n": "stock_rank_ljqs_ths",
+   "p": [],
+   "r": [],
+   "role": "kind",
+   "s": "同花顺-数据中心-技术选股-量价齐升",
+   "st": "ok"
+  },
+  "stock_rank_lxsz_ths": {
+   "msg": "",
+   "n": "stock_rank_lxsz_ths",
+   "p": [],
+   "r": [],
+   "role": "kind",
+   "s": "同花顺-数据中心-技术选股-连续上涨",
+   "st": "ok"
+  },
+  "stock_rank_lxxd_ths": {
+   "msg": "",
+   "n": "stock_rank_lxxd_ths",
+   "p": [],
+   "r": [],
+   "role": "kind",
+   "s": "同花顺-数据中心-技术选股-连续下跌",
+   "st": "ok"
+  },
+  "stock_rank_xstp_ths": {
+   "msg": "",
+   "n": "stock_rank_xstp_ths",
+   "p": [
+    "symbol"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "同花顺-数据中心-技术选股-向上突破",
+   "st": "ok"
+  },
+  "stock_rank_xxtp_ths": {
+   "msg": "",
+   "n": "stock_rank_xxtp_ths",
+   "p": [
+    "symbol"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "同花顺-数据中心-技术选股-向下突破",
+   "st": "ok"
+  },
+  "stock_rank_xzjp_ths": {
+   "msg": "",
+   "n": "stock_rank_xzjp_ths",
+   "p": [],
+   "r": [],
+   "role": "kind",
+   "s": "同花顺-数据中心-技术选股-险资举牌",
+   "st": "ok"
+  },
+  "stock_sy_hy_em": {
+   "msg": "",
+   "n": "stock_sy_hy_em",
+   "p": [
+    "date"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "东方财富网-数据中心-特色数据-商誉-行业商誉",
+   "st": "ok"
+  },
+  "stock_sy_jz_em": {
+   "msg": "",
+   "n": "stock_sy_jz_em",
+   "p": [
+    "date"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "东方财富网-数据中心-特色数据-商誉-个股商誉减值明细",
+   "st": "ok"
+  }
+ },
+ "stock-connect": {
+  "stock_hsgt_board_rank_em": {
+   "msg": "",
+   "n": "stock_hsgt_board_rank_em",
+   "p": [
+    "symbol",
+    "indicator"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "东方财富网-数据中心-沪深港通持股-行业板块排行-北向资金增持行业板块排行",
+   "st": "ok"
+  },
+  "stock_hsgt_fund_flow_summary_em": {
+   "msg": "",
+   "n": "stock_hsgt_fund_flow_summary_em",
+   "p": [],
+   "r": [],
+   "role": "kind",
+   "s": "东方财富网-数据中心-资金流向-沪深港通资金流向",
+   "st": "ok"
+  },
+  "stock_hsgt_hist_em": {
+   "msg": "",
+   "n": "stock_hsgt_hist_em",
+   "p": [
+    "symbol"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "东方财富网-数据中心-资金流向-沪深港通资金流向-沪深港通历史数据",
+   "st": "ok"
+  },
+  "stock_hsgt_hold_stock_em": {
+   "msg": "",
+   "n": "stock_hsgt_hold_stock_em",
+   "p": [
+    "market",
+    "indicator"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "东方财富-数据中心-沪深港通持股-个股排行",
+   "st": "ok"
+  },
+  "stock_hsgt_individual_detail_em": {
+   "msg": "",
+   "n": "stock_hsgt_individual_detail_em",
+   "p": [
+    "symbol",
+    "start_date",
+    "end_date"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "东方财富-数据中心-沪深港通-沪深港通持股-具体股票详情",
+   "st": "ok"
+  },
+  "stock_hsgt_institution_statistics_em": {
+   "msg": "",
+   "n": "stock_hsgt_institution_statistics_em",
+   "p": [
+    "market",
+    "start_date",
+    "end_date"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "东方财富网-数据中心-沪深港通-沪深港通持股-每日机构统计",
+   "st": "ok"
+  },
+  "stock_hsgt_sh_hk_spot_em": {
+   "msg": "",
+   "n": "stock_hsgt_sh_hk_spot_em",
+   "p": [],
+   "r": [],
+   "role": "kind",
+   "s": "东方财富网-行情中心-沪深港通-港股通（沪>港）-股票",
+   "st": "ok"
+  },
+  "stock_hsgt_stock_statistics_em": {
+   "msg": "",
+   "n": "stock_hsgt_stock_statistics_em",
+   "p": [
+    "symbol",
+    "start_date",
+    "end_date"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "东方财富网-数据中心-沪深港通-沪深港通持股-每日个股统计",
+   "st": "ok"
+  }
+ },
+ "unlock": {
+  "stock_repurchase_em": {
+   "msg": "",
+   "n": "stock_repurchase_em",
+   "p": [],
+   "r": [],
+   "role": "kind",
+   "s": "东方财富网-数据中心-股票回购-股票回购数据",
+   "st": "ok"
+  },
+  "stock_restricted_release_detail_em": {
+   "msg": "",
+   "n": "stock_restricted_release_detail_em",
+   "p": [
+    "start_date",
+    "end_date"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "东方财富网-数据中心-限售股解禁-解禁详情一览",
+   "st": "ok"
+  },
+  "stock_restricted_release_summary_em": {
+   "msg": "",
+   "n": "stock_restricted_release_summary_em",
+   "p": [
+    "symbol",
+    "start_date",
+    "end_date"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "东方财富网-数据中心-特色数据-限售股解禁",
+   "st": "ok"
+  }
+ },
+ "world": {
+  "currency_boc_safe": {
+   "msg": "",
+   "n": "currency_boc_safe",
+   "p": [],
+   "r": [],
+   "role": "kind",
+   "s": "人民币汇率中间价",
+   "st": "ok"
+  },
+  "currency_convert": {
+   "msg": "",
+   "n": "currency_convert",
+   "p": [
+    "base",
+    "to",
+    "amount",
+    "api_key"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "currencies data from currencyscoop.com",
+   "st": "ok"
+  },
+  "currency_currencies": {
+   "msg": "",
+   "n": "currency_currencies",
+   "p": [
+    "c_type",
+    "api_key"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "currencies data from currencyscoop.com",
+   "st": "ok"
+  },
+  "currency_history": {
+   "msg": "",
+   "n": "currency_history",
+   "p": [
+    "base",
+    "date",
+    "symbols",
+    "api_key"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "Latest data from currencyscoop.com",
+   "st": "ok"
+  },
+  "currency_latest": {
+   "msg": "",
+   "n": "currency_latest",
+   "p": [
+    "base",
+    "symbols",
+    "api_key"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "Latest data from currencyscoop.com",
+   "st": "ok"
+  },
+  "currency_pair_map": {
+   "msg": "",
+   "n": "currency_pair_map",
+   "p": [
+    "symbol"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "指定货币的所有可获取货币对的数据",
+   "st": "ok"
+  },
+  "currency_time_series": {
+   "msg": "",
+   "n": "currency_time_series",
+   "p": [
+    "base",
+    "start_date",
+    "end_date",
+    "symbols"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "Time-series data from currencyscoop.com",
+   "st": "ok"
+  },
+  "forex_hist_em": {
+   "msg": "",
+   "n": "forex_hist_em",
+   "p": [
+    "symbol"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "东方财富网-行情中心-外汇市场-所有汇率-历史行情数据",
+   "st": "ok"
+  },
+  "forex_spot_em": {
+   "msg": "",
+   "n": "forex_spot_em",
+   "p": [],
+   "r": [],
+   "role": "kind",
+   "s": "东方财富网-行情中心-外汇市场-所有汇率-实时行情数据",
+   "st": "ok"
+  },
+  "hf_sp_500": {
+   "msg": "",
+   "n": "hf_sp_500",
+   "p": [
+    "year"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "S&P 500 minute data from 2012-2018",
+   "st": "ok"
+  },
+  "stock_us_daily": {
+   "msg": "",
+   "n": "stock_us_daily",
+   "p": [
+    "symbol",
+    "adjust"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "新浪财经-美股",
+   "st": "ok"
+  },
+  "stock_us_famous_spot_em": {
+   "msg": "",
+   "n": "stock_us_famous_spot_em",
+   "p": [
+    "symbol"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "东方财富网-行情中心-美股市场-知名美股",
+   "st": "ok"
+  },
+  "stock_us_hist": {
+   "msg": "",
+   "n": "stock_us_hist",
+   "p": [
+    "symbol",
+    "period",
+    "start_date",
+    "end_date"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "东方财富网-行情-美股-每日行情",
+   "st": "ok"
+  },
+  "stock_us_hist_min_em": {
+   "msg": "",
+   "n": "stock_us_hist_min_em",
+   "p": [
+    "symbol",
+    "start_date",
+    "end_date"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "东方财富网-行情首页-美股-每日分时行情",
+   "st": "ok"
+  },
+  "stock_us_pink_spot_em": {
+   "msg": "",
+   "n": "stock_us_pink_spot_em",
+   "p": [],
+   "r": [],
+   "role": "kind",
+   "s": "东方财富网-行情中心-美股市场-粉单市场",
+   "st": "ok"
+  },
+  "stock_us_spot": {
+   "msg": "",
+   "n": "stock_us_spot",
+   "p": [],
+   "r": [],
+   "role": "kind",
+   "s": "新浪财经-所有美股的数据，注意延迟 15 分钟",
+   "st": "ok"
+  },
+  "stock_us_spot_em": {
+   "msg": "",
+   "n": "stock_us_spot_em",
+   "p": [],
+   "r": [],
+   "role": "kind",
+   "s": "东方财富网-美股-实时行情",
+   "st": "ok"
+  },
+  "stock_us_valuation_baidu": {
+   "msg": "",
+   "n": "stock_us_valuation_baidu",
+   "p": [
+    "symbol",
+    "indicator",
+    "period"
+   ],
+   "r": [],
+   "role": "kind",
+   "s": "百度股市通-美股-财务报表-估值数据",
+   "st": "ok"
+  }
+ }
+}

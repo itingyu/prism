@@ -1,0 +1,64 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "prism"
+version = "0.0.1"
+description = "股票行情 / 涨停 / 资金 / 新闻 / 财报 / K线 / 选股 CLI"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+dependencies = [
+    "typer>=0.12",
+    # 自带 net 层 (HTTP/TLS/代理/限速)
+    "curl_cffi>=0.7",
+    "cryptography>=41",
+    "maxminddb>=2.4",
+    "certifi",
+    "pysocks>=1.7",
+    "urllib3>=2.0",
+    "requests>=2.31",
+    # pydata: 外部库返回的 DataFrame 归一 (akshare/efinance 等本身另装)
+    "pandas>=2.0",
+]
+
+[project.optional-dependencies]
+# 事件/宏观数据域 (lhb/dzjy/unlock/jgdy/yanbao/macro/hsgt/cb/etf) 与
+# kline/news 的兜底源；不装则这些动作报缺依赖, 其余命令不受影响
+events = ["akshare>=1.19"]
+# 财务质量与 K 线兜底; baostock 免 token 无频控, 优先
+finance = ["baostock>=0.9"]
+# adata 仅 K 线可用且不稳, 可选
+spare = ["adata>=2.9"]
+
+[project.scripts]
+prism = "prism.cli.app:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+# 数据文件必须跟着 wheel 走: 装包后 rules.json / 证书 / stock 的配方与逆向文档
+# 都从包内读, 漏打进去 = 装完即废 (源码树里跑是好的, 本地测不出来)。
+[tool.setuptools.package-data]
+prism = [
+    "data/*.json",
+    "data/certs/*",
+    "stock/data/*.json",
+    "stock/data/**/*.json",
+    "stock/data/**/*.md",
+    "stock/bridge/*.json",
+]
+
+[tool.ruff]
+line-length = 100
+
+# prism 自己不使用 pkg_resources。这两条警告全部来自第三方:
+# akshare -> py_mini_racer -> pkg_resources.declare_namespace('google')。
+# 上游修复前只过滤这一条信息, 不放开 DeprecationWarning 整类。
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+filterwarnings = [
+    "ignore:pkg_resources is deprecated as an API:DeprecationWarning",
+    "ignore:Deprecated call to `pkg_resources.declare_namespace:DeprecationWarning",
+]
